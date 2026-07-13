@@ -13,10 +13,12 @@ directorio de compilación completo (fuentes, setup, fields-cv, main.tex)
 listo para compilar con xelatex.
 """
 import argparse
+import re
 import shutil
 import subprocess
 from pathlib import Path
 
+import bibtexparser
 import yaml
 from jinja2 import Environment, FileSystemLoader
 
@@ -100,17 +102,107 @@ def render_bullets_block(section, lang, version):
     return tpl.render(items=items)
 
 
+JOURNAL_NAMES = {
+    "\\apj": "ApJ",
+    "\\aap": "A&A",
+    "\\mnras": "MNRAS",
+    "\\pasp": "PASP",
+    "\\arxiv": "arXiv",
+}
+
+JOURNAL_FALLBACK = {
+    "VizieR Online Data Catalog": "VizieR Online Data Catalog",
+    "The Astronomer's Telegram": "ATel",
+}
+
+
+def _clean_author_name(name):
+    return re.sub(r"[{}]", "", name)
+
+
+def _first_author_surname(authors_raw):
+    first = authors_raw.split(" and ")[0]
+    cleaned = _clean_author_name(first)
+    if "," in cleaned:
+        return cleaned.split(",")[0]
+    parts = cleaned.split()
+    return parts[-1] if parts else cleaned
+
+
+def _format_journal(journal_raw):
+    cleaned = _clean_author_name(journal_raw).strip()
+    for key, val in JOURNAL_NAMES.items():
+        if key in journal_raw:
+            return val
+    for key, val in JOURNAL_FALLBACK.items():
+        if key.lower() == cleaned.lower():
+            return val
+    return cleaned
+
+
+def _title_from_bib(title_raw):
+    cleaned = _clean_author_name(title_raw)
+    cleaned = re.sub(r"^['\"]|['\"]$", "", cleaned)
+    return cleaned.strip()
+
+
 def render_publications(meta, lang):
     tpl = env.get_template("publications.tex.j2")
-    first_body = (DATA / "publications_body.tex").read_text(encoding="utf-8")
-    coauthor_body = (DATA / "publications_coauthor_body.tex").read_text(encoding="utf-8")
-    labels = meta["labels"]
-    return tpl.render(
-        first_author_label=labels["first_author"][lang],
-        first_author_body=first_body,
-        coauthor_label=labels["coauthor"][lang],
-        coauthor_body=coauthor_body,
-    )
+
+    with open(BASE / "bibliography.bib", encoding="utf-8") as f:
+        bib = bibtexparser.load(f)
+
+    entries = []
+    for e in bib.entries:
+        author_str = e.get("author", "")
+        authors = author_str.split(" and ")
+        first_clean = _clean_author_name(authors[0])
+        is_first = "Anais" in first_clean or "Jorge" in first_clean
+        has_anais = any(
+            "Anais" in _clean_author_name(a) or "Jorge" in _clean_author_name(a)
+            for a in authors
+        )
+        if not has_anais:
+            continue
+
+        year = e.get("year", "?")
+        title = _title_from_bib(e.get("title", ""))
+        first_surname = _first_author_surname(author_str)
+        journal = _format_journal(e.get("journal", "")) if e.get("journal") else ""
+        volume = e.get("volume", "")
+        pages = e.get("pages", e.get("eid", ""))
+        doi = e.get("doi", "")
+        note = e.get("note", "")
+
+        if is_first:
+            coauthors = ", ".join(
+                _clean_author_name(a).split(",")[0]
+                for a in authors[1:]
+            )
+            line = (
+                f"\\item {{Anais, J., {coauthors}, et. al "
+                f"\\textit{{{title}}}. {note or year}}} "
+            )
+        else:
+            parts = [f"{first_surname}, et al., including \\textbf{{Anais, J.}}"]
+            parts.append(f"\\textit{{{title}}}")
+            parts.append(str(year))
+            if journal:
+                parts.append(journal)
+            if volume:
+                parts.append(volume)
+            if pages:
+                parts.append(pages)
+            if doi:
+                parts.append(f"doi:{doi}")
+            line = "\\item {" + ", ".join(parts) + "}"
+
+        entries.append((int(year) if year.isdigit() else 0, line))
+
+    entries.sort(key=lambda x: -x[0])
+    body = "\n    ".join(line for _, line in entries)
+
+    return tpl.render(body=body)
 
 
 def build(lang, version, outdir=None):

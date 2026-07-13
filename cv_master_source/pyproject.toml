@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Generador del CV maestro de Jorge Anais Vilchez"
 requires-python = ">=3.10"
 dependencies = [
+    "bibtexparser",
     "jinja2",
     "pyyaml",
 ]

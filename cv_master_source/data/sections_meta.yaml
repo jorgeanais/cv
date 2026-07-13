@@ -43,8 +43,3 @@ sections:
     title: {es: "Publicaciones Científicas", en: "Publications"}
     long_only: true
     newpage_before: true
-
-# Etiquetas pequeñas reutilizadas en publications.tex
-labels:
-  first_author: {es: "Como primer autor", en: "As first author"}
-  coauthor: {es: "Más reciente como coautor", en: "As coauthor"}
