@@ -229,12 +229,15 @@ furtherdegrees:
       priority: 2
 
 achievements:
-  type: bullets_block
+  type: mixed
   items:
-    - {es: "2024-2026 Beca completa Doctorado Nacional, Agencia Nacional de Investigación y Desarrollo de Chile.", en: "2024-2026 Full Scholarship for advanced human capital in Chile, Agencia Nacional de Investigación y Desarrollo de Chile."}
-    - {es: "2022-2023 Beca de excelencia académica para estudiantes de doctorado, Universidad de Antofagasta.", en: "2022-2023 Academic Excellence Scholarship for PhD students, Universidad de Antofagasta."}
-    - {es: "2019 Beca completa para participar en La Serena School for Data Science, AURA Observatory, Chile.", en: "2019 Full scholarship to attend La Serena School for Data Science, AURA Observatory, Chile."}
-  priority: 1
+    - kind: labeled_bullets
+      label: {es: "Becas", en: "Scholarships"}
+      bullets:
+        - {es: "2024-2026 Beca completa Doctorado Nacional, Agencia Nacional de Investigación y Desarrollo de Chile.", en: "2024-2026 Full Scholarship for advanced human capital in Chile, Agencia Nacional de Investigación y Desarrollo de Chile."}
+        - {es: "2022-2023 Beca de excelencia académica para estudiantes de doctorado, Universidad de Antofagasta.", en: "2022-2023 Academic Excellence Scholarship for PhD students, Universidad de Antofagasta."}
+        - {es: "2019 Beca completa para participar en La Serena School for Data Science, AURA Observatory, Chile.", en: "2019 Full scholarship to attend La Serena School for Data Science, AURA Observatory, Chile."}
+      priority: 1
 
 conferences:
   type: experience
