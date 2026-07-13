@@ -303,3 +303,61 @@ conferences:
       location: {es: "La Serena, Chile", en: "La Serena, Chile"}
       titlecomment: {es: "", en: ""}
       priority: 2
+
+courses:
+  type: experience
+  items:
+    - dates: {es: "Otoño 2026", en: "Autumn 2026"}
+      title: {es: "AVY1101 Big Data, AVY1102 Fundamentos de Machine Learning, BIY7121 Minería de Datos", en: "AVY1101 Big Data, AVY1102 Fundamentals of Machine Learning, BIY7121 Data Mining"}
+      subtitle: {es: "Duoc UC", en: "Duoc UC"}
+      location: {es: "Santiago, Chile", en: "Santiago, Chile"}
+      titlecomment: {es: "", en: ""}
+      priority: 2
+    - dates: {es: "Primavera 2025", en: "Spring 2025"}
+      title: {es: "MLY0100 Machine Learning", en: "MLY0100 Machine Learning"}
+      subtitle: {es: "Duoc UC", en: "Duoc UC"}
+      location: {es: "Santiago, Chile", en: "Santiago, Chile"}
+      titlecomment: {es: "", en: ""}
+      priority: 2
+    - dates: {es: "Otoño 2025", en: "Autumn 2025"}
+      title: {es: "DLY0100 Deep Learning, FMY0100 Fundamentos de Machine Learning", en: "DLY0100 Deep Learning, FMY0100 Fundamentals of Machine Learning"}
+      subtitle: {es: "Duoc UC", en: "Duoc UC"}
+      location: {es: "Santiago, Chile", en: "Santiago, Chile"}
+      titlecomment: {es: "", en: ""}
+      priority: 2
+    - dates: {es: "Primavera 2024", en: "Spring 2024"}
+      title: {es: "MLY0100 Machine Learning", en: "MLY0100 Machine Learning"}
+      subtitle: {es: "Duoc UC", en: "Duoc UC"}
+      location: {es: "Santiago, Chile", en: "Santiago, Chile"}
+      titlecomment: {es: "", en: ""}
+      priority: 2
+    - dates: {es: "Otoño 2024", en: "Autumn 2024"}
+      title: {es: "DLY0100 Deep Learning", en: "DLY0100 Deep Learning"}
+      subtitle: {es: "Duoc UC", en: "Duoc UC"}
+      location: {es: "Santiago, Chile", en: "Santiago, Chile"}
+      titlecomment: {es: "", en: ""}
+      priority: 2
+    - dates: {es: "Otoño 2023", en: "Autumn 2023"}
+      title: {es: "DLY0100 Deep Learning", en: "DLY0100 Deep Learning"}
+      subtitle: {es: "Duoc UC", en: "Duoc UC"}
+      location: {es: "Santiago, Chile", en: "Santiago, Chile"}
+      titlecomment: {es: "", en: ""}
+      priority: 2
+    - dates: {es: "Primavera 2023", en: "Spring 2023"}
+      title: {es: "MLY0100 Machine Learning", en: "MLY0100 Machine Learning"}
+      subtitle: {es: "Duoc UC", en: "Duoc UC"}
+      location: {es: "Santiago, Chile", en: "Santiago, Chile"}
+      titlecomment: {es: "", en: ""}
+      priority: 2
+    - dates: {es: "2025", en: "2025"}
+      title: {es: "TLY1101 Machine Learning", en: "TLY1101 Machine Learning"}
+      subtitle: {es: "Ingeniería en Informática mención Inteligencia Artificial, Duoc UC", en: "Computer Engineering with AI specialization, Duoc UC"}
+      location: {es: "Santiago, Chile", en: "Santiago, Chile"}
+      titlecomment: {es: "Desarrollo de asignatura", en: "Course development"}
+      priority: 2
+    - dates: {es: "2026", en: "2026"}
+      title: {es: "MLT2202 Redes neuronales y aprendizaje profundo", en: "MLT2202 Neural Networks and Deep Learning"}
+      subtitle: {es: "Programa Científico de Datos online, Duoc UC", en: "Data Scientist Program online, Duoc UC"}
+      location: {es: "Santiago, Chile", en: "Santiago, Chile"}
+      titlecomment: {es: "Desarrollo de asignatura", en: "Course development"}
+      priority: 2

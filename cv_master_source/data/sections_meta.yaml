@@ -23,6 +23,10 @@ sections:
     title: {es: "Experiencia Enseñando", en: "Teaching Experience"}
     long_only: false
 
+  - key: courses
+    title: {es: "Cursos Dictados", en: "Courses Taught"}
+    long_only: true
+
   - key: observational_experience
     title: {es: "Experiencia Observacional", en: "Observational Experience"}
     long_only: true
