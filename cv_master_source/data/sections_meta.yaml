@@ -40,7 +40,7 @@ sections:
     long_only: true
 
   - key: achievements
-    title: {es: "Becas", en: "Awards"}
+    title: {es: "Reconocimientos", en: "Achievements"}
     long_only: false
 
   - key: conferences
@@ -50,4 +50,4 @@ sections:
   - key: publications
     title: {es: "Publicaciones Científicas", en: "Publications"}
     long_only: true
-    newpage_before: true
+    newpage_before: false

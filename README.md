@@ -11,7 +11,7 @@ compila a PDF mediante LaTeX, produciendo 4 documentos listos para enviar.
 
 ## Cómo funciona
 
-Todo tu contenido vive en dos archivos YAML dentro de `cv_master_source/data/`:
+Todo el contenido vive en dos archivos YAML dentro de `cv_master_source/data/`:
 
 - `cv_data.yaml` — cada entrada (educación, experiencia, etc.) con su texto en
   español e inglés, y una etiqueta `priority` (1 = aparece en la versión short
@@ -129,12 +129,12 @@ sudo apt install texlive-full texlive-lang-spanish
 
 ## Nota técnica importante
 
-Tu template usa `\textls` (letterspacing) de `microtype` en el nombre y los
+El template usa `\textls` (letterspacing) de `microtype` en el nombre y los
 títulos de sección. La versión de `microtype` de este entorno de prueba no
 soporta letterspacing bajo XeLaTeX y lanza un error duro. Para poder compilar
 y verificar el resultado, neutralizamos esas dos líneas en
 `base/fields-cv/name.tex` y `base/fields-cv/section-titles.tex` (dejaron de
 espaciar las letras, pero todo lo demás del diseño se mantiene intacto).
-Si en tu entorno habitual (ej. Overleaf) esto ya compilaba bien, es probable
+Si en el entorno habitual (ej. Overleaf) esto ya compilaba bien, es probable
 que tengas una versión de `microtype` distinta y puedas revertir el cambio
 sin problema — solo vuelve a poner `\textls[...]{...}` en esos dos archivos.
