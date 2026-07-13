@@ -376,3 +376,12 @@ courses_developed:
       location: {es: "Santiago, Chile", en: "Santiago, Chile"}
       titlecomment: {es: "Diseño y desarrollo de asignatura", en: "Course design and development"}
       priority: 2
+
+ads_publications:
+  type: labeled_text
+  items:
+    - label: {es: "Lista completa en ADS", en: "Full list on ADS"}
+      content:
+        es: "\\url{https://ui.adsabs.harvard.edu/public-libraries/veXcb7VPROqU0r03axnXkg}"
+        en: "\\url{https://ui.adsabs.harvard.edu/public-libraries/veXcb7VPROqU0r03axnXkg}"
+      priority: 1

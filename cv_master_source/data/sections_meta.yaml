@@ -51,3 +51,7 @@ sections:
     title: {es: "Publicaciones Científicas", en: "Publications"}
     long_only: true
     newpage_before: false
+
+  - key: ads_publications
+    title: {es: "Publicaciones en ADS", en: "ADS Publications"}
+    long_only: false
