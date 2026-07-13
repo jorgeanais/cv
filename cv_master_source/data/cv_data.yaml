@@ -13,10 +13,10 @@ contact-info:
     - label: {es: "Página web", en: "Website"}
       content: {es: "\\url{www.jorgeanais.cl}", en: "\\url{www.jorgeanais.cl}"}
       priority: 1
-    - label: {es: "LinkedIn", en: "LinkedIn"}
-      content:
-        {es: "\\url{https://www.linkedin.com/in/jorge-anais-vilchez-3b9263a0/}", en: "\\url{https://www.linkedin.com/in/jorge-anais-vilchez-3b9263a0/}"}
-      priority: 1
+    # - label: {es: "LinkedIn", en: "LinkedIn"}
+    #   content:
+    #     {es: "\\url{https://www.linkedin.com/in/jorge-anais-vilchez-3b9263a0/}", en: "\\url{https://www.linkedin.com/in/jorge-anais-vilchez-3b9263a0/}"}
+    #   priority: 1
 
 education:
   type: experience
@@ -50,12 +50,20 @@ experience:
   type: experience
   items:
     - dates: {es: "2022 - Presente", en: "2022 - Present"}
-      title: {es: "Proyecto de Investigación", en: "Research Project"}
+      title: {es: "Investigación", en: "Research"}
       subtitle: {es: "Caracterización de la galaxia enana esferoidal de Sagitario a bajas latitudes Galácticas", en: "Characterization of the Sagittarius dwarf spheroidal galaxy at low Galactic latitudes"}
       location: {es: "Universidad de Antofagasta", en: "Universidad de Antofagasta"}
       titlecomment:
         es: "Investigador principal del proyecto financiado por la Beca de Doctorado Nacional de ANID (2024-2026). Caracterización detallada de la estructura, contenido estelar y dinámica de la galaxia enana de Sagitario en regiones de baja latitud Galáctica, combinando datos fotométricos y espectroscópicos de múltiples surveys."
         en: "Principal investigator of the project funded by the ANID National Doctoral Scholarship (2024-2026). Detailed characterization of the structure, stellar content, and dynamics of the Sagittarius dwarf galaxy in low Galactic latitude regions, combining photometric and spectroscopic data from multiple surveys."
+      priority: 1
+    - dates: {es: "2023 - Presente", en: "2023 - Present"}
+      title: {es: "Docente", en: "Instructor"}
+      subtitle: {es: "Duoc UC, Escuela de Informática y Telecomunicaciones", en: "Duoc UC, School of Informatics and Telecommunications"}
+      location: {es: "Santiago, Chile", en: "Santiago, Chile"}
+      titlecomment:
+        es: "Dicto las clases de Machine Learning y Deep Learning para estudiantes de ingeniería en informática."
+        en: "Teaching Machine Learning and Deep Learning courses for computer engineering students."
       priority: 1
     - dates: {es: "04/2025 - 10/2025", en: "04/2025 - 10/2025"}
       title: {es: "Early Career Visitor Programme", en: "Early Career Visitor Programme"}
@@ -66,7 +74,7 @@ experience:
         en: "Researcher in the project led by Dr. Elisa R. Garro combining deep HST photometry (WFC3, F555W and F814W) and FLAMES+UVES spectroscopy (98 hrs, PI: Garro) to precisely determine ages and chemical compositions of Sagittarius dwarf galaxy globular clusters. Goals include resolving the age-metallicity relation, testing formation scenarios during Sgr-Milky Way interaction, and comparing with theoretical models to reconstruct Sgr's evolutionary history."
       priority: 1
     - dates: {es: "09/2024 - Presente", en: "09/2024 - Present"}
-      title: {es: "Proyecto de Investigación", en: "Research Project"}
+      title: {es: "Investigación", en: "Research "}
       subtitle: {es: "Estrellas variables en la galaxia esferoidal de Sagitario", en: "Variable stars in the Sagittarius dwarf spheroidal galaxy"}
       location: {es: "NOIRLab", en: "NOIRLab"}
       titlecomment:
@@ -149,7 +157,7 @@ skills:
 teaching:
   type: experience
   items:
-    - dates: {es: "2022 - Presente", en: "2022 - Present"}
+    - dates: {es: "2023 - Presente", en: "2023 - Present"}
       title: {es: "Docente", en: "Instructor"}
       subtitle: {es: "Duoc UC, Escuela de Informática y Telecomunicaciones", en: "Duoc UC, School of Informatics and Telecommunications"}
       location: {es: "Santiago, Chile", en: "Santiago, Chile"}
