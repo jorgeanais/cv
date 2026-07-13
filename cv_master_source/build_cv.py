@@ -104,7 +104,7 @@ def render_bullets_block(section, lang, version):
 
 JOURNAL_NAMES = {
     "\\apj": "ApJ",
-    "\\aap": "A&A",
+    "\\aap": "A\\&A",
     "\\mnras": "MNRAS",
     "\\pasp": "PASP",
     "\\arxiv": "arXiv",
@@ -114,6 +114,12 @@ JOURNAL_FALLBACK = {
     "VizieR Online Data Catalog": "VizieR Online Data Catalog",
     "The Astronomer's Telegram": "ATel",
 }
+
+
+def _escape_latex(text):
+    for char in r"&%$#_":
+        text = text.replace(char, "\\" + char)
+    return text
 
 
 def _clean_author_name(name):
