@@ -27,6 +27,10 @@ sections:
     title: {es: "Cursos Dictados", en: "Courses Taught"}
     long_only: true
 
+  - key: courses_developed
+    title: {es: "Cursos Desarrollados", en: "Courses Developed"}
+    long_only: true
+
   - key: observational_experience
     title: {es: "Experiencia Observacional", en: "Observational Experience"}
     long_only: true
