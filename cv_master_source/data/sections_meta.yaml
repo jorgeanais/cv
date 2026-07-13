@@ -7,12 +7,12 @@ sections:
     title: {es: "Contacto", en: "Contact"}
     long_only: false
 
-  - key: education
-    title: {es: "Educación", en: "Education"}
-    long_only: false
-
   - key: experience
     title: {es: "Experiencia", en: "Experience"}
+    long_only: false
+  
+  - key: education
+    title: {es: "Educación", en: "Education"}
     long_only: false
 
   - key: skills
