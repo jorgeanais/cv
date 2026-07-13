@@ -205,6 +205,24 @@ observational_experience:
 furtherdegrees:
   type: experience
   items:
+    - dates: {es: "2026", en: "2026"}
+      title: {es: "Gobernanza, Regulación y Ética de Datos", en: "Data Governance, Regulation, and Ethics"}
+      subtitle: {es: "Universidad de Chile", en: "Universidad de Chile"}
+      location: {es: "Santiago, Chile", en: "Santiago, Chile"}
+      titlecomment: {es: "", en: ""}
+      priority: 2
+    - dates: {es: "2025", en: "2025"}
+      title: {es: "Algoritmos Evolutivos (CC66M)", en: "Evolutionary Algorithms (CC66M)"}
+      subtitle: {es: "Universidad de Chile", en: "Universidad de Chile"}
+      location: {es: "Santiago, Chile", en: "Santiago, Chile"}
+      titlecomment: {es: "", en: ""}
+      priority: 2
+    - dates: {es: "2025", en: "2025"}
+      title: {es: "Transformers, uso de agentes, LangChain y RAG", en: "Transformers, use of agents, LangChain and RAG"}
+      subtitle: {es: "Universidad de Chile", en: "Universidad de Chile"}
+      location: {es: "Santiago, Chile", en: "Santiago, Chile"}
+      titlecomment: {es: "", en: ""}
+      priority: 2
     - dates: {es: "2024", en: "2024"}
       title: {es: "Reconocimiento visual con Deep Learning (CC66T)", en: "Visual Recognition with Deep Learning (CC66T)"}
       subtitle: {es: "Universidad de Chile", en: "Universidad de Chile"}
