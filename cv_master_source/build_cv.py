@@ -98,8 +98,8 @@ def render_bullets_block(section, lang, version):
     if not keep(section["priority"], version):
         return ""
     tpl = env.get_template("bullets_block.tex.j2")
-    items = [it[lang] for it in section["items"]]
-    return tpl.render(items=items)
+    bullets = [it[lang] for it in section["items"]]
+    return tpl.render(bullets=bullets)
 
 
 JOURNAL_NAMES = {

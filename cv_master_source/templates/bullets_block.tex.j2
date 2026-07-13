@@ -1,9 +1,6 @@
-\vspace{0.5cm}
-\begin{minipage}{0.3\textwidth}
-\hspace{1cm}
-\end{minipage}
-\begin{minipage}{0.65\textwidth}
-\begin{itemize}
-{% for item in items %}    \item { {{- item -}} }
-{% endfor %}\end{itemize}
-\end{minipage}
+\CVLabeledBulletListField[
+    labeltext={  },
+    bulletlistcontent={
+{% for b in bullets %}        {{ '{' }}{{ b }}{{ '}' }}{% if not loop.last %},{% endif %}
+{% endfor %}    }
+]
