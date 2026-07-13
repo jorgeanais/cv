@@ -105,7 +105,7 @@ experience:
         es: "Estudio de espectroscopía de transmisión \\textit{in silico} para atmósferas de planetas tipo Tierra y mini-Neptunos. El resultado de esta investigación fue parte de una propuesta de tiempo de telescopio para JWST (Time Proposal \\#2684, cycle 1). Bajo la supervisión del Dr. Jeremy Tregloan-Reed."
         en: "Study on transmission spectroscopy \\textit{in silico} models for Earth-like and Mini-Neptunes planetary atmospheres. The result of this research was used for a JWST Time Proposal (\\#2684, cycle 1). Under the supervision of Dr. Jeremy Tregloan-Reed."
       priority: 1
-    - dates: {es: "2015 - 2020", en: "2015 - 2020"}
+    - dates: {es: "2015 - 2025", en: "2015 - 2025"}
       title: {es: "Observador", en: "Observer"}
       subtitle: {es: "Proyecto 1M2H, UC Santa Cruz", en: "1M2H Project, UC Santa Cruz"}
       location: {es: "Observatorio Las Campanas, Atacama, Chile", en: "Las Campanas Observatory, Atacama, Chile"}
@@ -177,7 +177,7 @@ teaching:
 observational_experience:
   type: experience
   items:
-    - dates: {es: "2014 - 2020", en: "2014 - 2020"}
+    - dates: {es: "2014 - 2025", en: "2014 - 2025"}
       title: {es: "Telescopio Swope 1m", en: "Swope 1m Telescope"}
       subtitle: {es: "Las Campanas Observatory", en: "Las Campanas Observatory"}
       location: {es: "Atacama, Chile", en: "Atacama, Chile"}
