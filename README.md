@@ -114,8 +114,18 @@ done
 - Python 3.10+ con `uv` para gestionar dependencias
 - Distribución TeX con `xelatex`, `biblatex`/`biber`, y los paquetes
   `listofitems`, `enumitem`, `csquotes`, `dirtytalk`, `oplotsymbl`
-  (en Ubuntu/Debian: `texlive-full` o `texlive-latex-extra`
-  + `texlive-bibtex-extra` + `texlive-science`)
+
+**Instalación en Arch Linux (yay):**
+
+```bash
+yay -S texlive-full texlive-libertinus texlive-fonts-recommended texlive-lang-spanish
+```
+
+**Instalación en Ubuntu/Debian:**
+
+```bash
+sudo apt install texlive-full texlive-lang-spanish
+```
 
 ## Nota técnica importante
 
