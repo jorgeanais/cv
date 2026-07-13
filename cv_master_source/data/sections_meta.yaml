@@ -47,11 +47,11 @@ sections:
     title: {es: "Conferencias y Escuelas", en: "Conferences \\& Schools"}
     long_only: true
 
-  - key: publications
+  - key: ads_publications
     title: {es: "Publicaciones Científicas", en: "Publications"}
+    long_only: false
+
+  - key: publications
+    title: {es: " ", en: " "}
     long_only: true
     newpage_before: false
-
-  - key: ads_publications
-    title: {es: "Publicaciones en ADS", en: "ADS Publications"}
-    long_only: false
