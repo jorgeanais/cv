@@ -1,0 +1,297 @@
+# =========================================================================
+# CV MAESTRO - Jorge Anais Vilchez
+# Contenido fusionado desde las versiones ES y EN previas.
+# priority: 1 = aparece en versión short Y long | 2 = solo en versión long
+# =========================================================================
+
+contact-info:
+  type: labeled_text
+  items:
+    - label: {es: "E-mail", en: "E-mail"}
+      content: {es: "jrganais@gmail.com", en: "jrganais@gmail.com"}
+      priority: 1
+    - label: {es: "Página web", en: "Website"}
+      content: {es: "\\url{www.jorgeanais.cl}", en: "\\url{www.jorgeanais.cl}"}
+      priority: 1
+    - label: {es: "LinkedIn", en: "LinkedIn"}
+      content:
+        {es: "\\url{https://www.linkedin.com/in/jorge-anais-vilchez-3b9263a0/}", en: "\\url{https://www.linkedin.com/in/jorge-anais-vilchez-3b9263a0/}"}
+      priority: 1
+
+education:
+  type: experience
+  items:
+    - dates: {es: "2022 - 2025 (esperado)", en: "2022 - (2025)"}
+      title: {es: "Doctorado en Astrofísica y Astroinformática", en: "Doctorate in Astrophysics and Astroinformatics"}
+      subtitle: {es: "Universidad de Antofagasta", en: "Universidad de Antofagasta"}
+      location: {es: "Antofagasta, Chile", en: "Antofagasta, Chile"}
+      titlecomment:
+        es: "Candidato a doctor. Tesis: \\enquote{Characterization of Sagittarius dwarf galaxy at low Galactic latitudes}"
+        en: "PhD candidate. Thesis: \\enquote{Characterization of Sagittarius dwarf galaxy at low Galactic latitudes}"
+      priority: 1
+    - dates: {es: "2018 - 2020", en: "2018 - 2020"}
+      title: {es: "Magíster en Astronomía", en: "Master in Astronomy"}
+      subtitle: {es: "Universidad de Antofagasta", en: "Universidad de Antofagasta"}
+      location: {es: "Antofagasta, Chile", en: "Antofagasta, Chile"}
+      titlecomment:
+        es: "Tesis: \\enquote{Search and characterization of star clusters in the far end of the Galactic bar}."
+        en: "Thesis: \\enquote{Search and characterization of star clusters in the far end of the Galactic bar}."
+      priority: 1
+    - dates: {es: "2008 - 2014", en: "2008 - 2014"}
+      title: {es: "Licenciado en Astronomía", en: "Licentiate in Astronomy"}
+      subtitle: {es: "Pontificia Universidad Católica de Chile", en: "Pontificia Universidad Católica de Chile"}
+      location: {es: "Santiago, Chile", en: "Santiago, Chile"}
+      titlecomment:
+        es: "Actividad de graduación: \\enquote{Un nuevo software astrométrico para el telescopio Swope}, desarrollado en el Observatorio Las Campanas."
+        en: "Graduation activity: \\enquote{A new astrometric software for the Swope Telescope}, developed at Las Campanas Observatory."
+      priority: 1
+
+experience:
+  type: experience
+  items:
+    - dates: {es: "04/2025 - Presente", en: "04/2025 - Present"}
+      title: {es: "Early Career Visitor Programme", en: "Early Career Visitor Programme"}
+      subtitle: {es: "Caracterización de nuevos cúmulos de la galaxia de Sagitario", en: "Characterization of new Sagittarius Dwarf Galaxy Clusters"}
+      location: {es: "ESO, Chile", en: "ESO, Chile"}
+      titlecomment:
+        es: "Participación en un proyecto liderado por la Dra. Elisa R. Garro que combina fotometría profunda de HST (WFC3, F555W y F814W) y espectroscopía FLAMES+UVES (98 hrs, IP: Garro) para determinar con precisión edades y composiciones químicas de cúmulos globulares de la galaxia de Sagitario. Los objetivos incluyen resolver la relación edad-metalicidad, poner a prueba escenarios de formación durante la interacción Sgr-Vía Láctea, y comparar con modelos teóricos para reconstruir la historia evolutiva de Sgr."
+        en: "Participated in a project led by Dr. Elisa R. Garro combining deep HST photometry (WFC3, F555W and F814W) and FLAMES+UVES spectroscopy (98 hrs, PI: Garro) to precisely determine ages and chemical compositions of Sagittarius dwarf galaxy globular clusters. Goals include resolving the age-metallicity relation, testing formation scenarios during Sgr-Milky Way interaction, and comparing with theoretical models to reconstruct Sgr's evolutionary history."
+      priority: 1
+    - dates: {es: "09/2024 - Presente", en: "09/2024 - Present"}
+      title: {es: "Proyecto de Investigación", en: "Research Project"}
+      subtitle: {es: "Estrellas variables en la galaxia esferoidal de Sagitario", en: "Variable stars in the Sagittarius dwarf spheroidal galaxy"}
+      location: {es: "NOIRLab", en: "NOIRLab"}
+      titlecomment:
+        es: "Colaboración con la investigadora de NOIRLab, Kathy Vivas, para detectar y clasificar estrellas variables (con foco en estrellas $\\delta$ Scuti y RR Lyrae) en las regiones centrales de la galaxia de Sagitario, usando datos multiépoca de DECam."
+        en: "Collaboration with NOIRlab researcher Kathy Vivas to detect and classify variable stars (focus on $\\delta$ Scuti and RR Lyrae stars) in the central regions of Sagittarius galaxy using multiepoch DECam data."
+      priority: 1
+    - dates: {es: "08/2021 - 04/2022", en: "08/2021 - 04/2022"}
+      title: {es: "Científico de Datos", en: "Data Scientist"}
+      subtitle: {es: "Grupo Kaufmann AWTO", en: "Grupo Kaufmann AWTO"}
+      location: {es: "Chile y Brasil", en: "Chile and Brasil"}
+      titlecomment:
+        es: "Diseño e implementación de modelos de aprendizaje automático, realización de análisis exploratorio de datos, y comunicación de resultados y recomendaciones a stakeholders."
+        en: "Design and implement machine learning models, perform exploratory data analysis, communicate insights and recommendations to stakeholders."
+      priority: 1
+    - dates: {es: "03/2020 - 11/2020", en: "03/2020 - 11/2020"}
+      title: {es: "Tesis de Magíster", en: "Master's Thesis"}
+      subtitle: {es: "Búsqueda y caracterización de cúmulos estelares en el extremo lejano de la barra Galáctica", en: "Search and characterization of star clusters in the far end of the Galactic bar"}
+      location: {es: "CITEVA, Universidad de Antofagasta", en: "CITEVA, Universidad de Antofagasta"}
+      titlecomment:
+        es: "Desarrollo de una metodología basada en aprendizaje automático no supervisado para la búsqueda de candidatos a cúmulos jóvenes en el extremo lejano de la barra Galáctica. Este trabajo permitió identificar tres nuevos candidatos a cúmulo en una región de alta extinción y densidad de fuentes de la Vía Láctea. Bajo la supervisión del Dr. Sebastián Ramírez y la Dra. Karla Peña Ramírez."
+        en: "Development of a methodology based on unsupervised machine learning to search for young cluster candidates at the far end of the Galactic bar. This work allowed us to identify three new cluster candidates at a highly extincted and crowded region of the Milky Way. Under the supervision of Dr. Sebastián Ramírez and Dra. Karla Peña Ramírez."
+      priority: 2
+    - dates: {es: "03/2020 - 11/2020", en: "03/2020 - 11/2020"}
+      title: {es: "Asistente de Investigación", en: "Research Assistant"}
+      subtitle: {es: "Modelos espectroscópicos para atmósferas planetarias", en: "Spectroscopy models for planetary atmospheres"}
+      location: {es: "CITEVA, UA", en: "CITEVA, UA"}
+      titlecomment:
+        es: "Estudio de espectroscopía de transmisión \\textit{in silico} para atmósferas de planetas tipo Tierra y mini-Neptunos. El resultado de esta investigación fue parte de una propuesta de tiempo de telescopio para JWST (Time Proposal \\#2684, cycle 1). Bajo la supervisión del Dr. Jeremy Tregloan-Reed."
+        en: "Study on transmission spectroscopy \\textit{in silico} models for Earth-like and Mini-Neptunes planetary atmospheres. The result of this research was used for a JWST Time Proposal (\\#2684, cycle 1). Under the supervision of Dr. Jeremy Tregloan-Reed."
+      priority: 2
+    - dates: {es: "2015 - 2020", en: "2015 - 2020"}
+      title: {es: "Observador", en: "Observer"}
+      subtitle: {es: "Proyecto 1M2H, UC Santa Cruz", en: "1M2H Project, UC Santa Cruz"}
+      location: {es: "Observatorio Las Campanas, Atacama, Chile", en: "Las Campanas Observatory, Atacama, Chile"}
+      titlecomment:
+        es: "Seguimiento fotométrico de transientes utilizando el telescopio Swope. Responsable de la adquisición de datos, control de calidad, y resolución de problemas del sistema. Bajo la supervisión del Dr. Ryan Foley."
+        en: "Photometric transients follow-up using Swope Telescope. Responsible for data acquisition, data quality assurance, and system troubleshooting. Under the supervision of Dr. Ryan Foley."
+      priority: 2
+    - dates: {es: "01/2016 - 06/2016", en: "01/2016 - 06/2016"}
+      title: {es: "Asistente de Investigación", en: "Research Assistant"}
+      subtitle: {es: "Reducción de datos", en: "Data reduction"}
+      location: {es: "Instituto de Astronomía, Universidad Católica del Norte, Antofagasta, Chile", en: "Instituto de Astronomía, Universidad Católica del Norte, Antofagasta, Chile"}
+      titlecomment:
+        es: "Reducción de datos de los instrumentos FORS (VLT) y MagE (Magallanes). Bajo la supervisión del Dr. Christian Moni Bidin."
+        en: "Data reduction of VLT FORS and Magellan MagE data. Under the supervision of Dr. Christian Moni Bidin."
+      priority: 2
+    - dates: {es: "2014 - 2015", en: "2014 - 2015"}
+      title: {es: "Observador", en: "Observer"}
+      subtitle: {es: "Carnegie Supernova Project II", en: "Carnegie Supernova Project II"}
+      location: {es: "Observatorio Las Campanas, Atacama, Chile", en: "Las Campanas Observatory, Atacama, Chile"}
+      titlecomment:
+        es: "Observaciones de supernovas de bajo corrimiento al rojo utilizando el telescopio Swope. Bajo la supervisión del Dr. Mark M. Phillips."
+        en: "Observations of low-redshift supernovae using the Swope Telescope at Las Campanas Observatory. Under the supervision of Dr. Mark M. Phillips."
+      priority: 2
+    - dates: {es: "2014 - 2015", en: "2014 - 2015"}
+      title: {es: "Asistente de Investigación", en: "Research Assistant"}
+      subtitle: {es: "Sonificación de imágenes médicas", en: "Sonification of medical images"}
+      location: {es: "Instituto de Música, Pontificia Universidad Católica de Chile, Santiago, Chile", en: "Instituto de Música, Pontificia Universidad Católica de Chile, Santiago, Chile"}
+      titlecomment:
+        es: "Desarrollo de una herramienta de sonificación para asistir a radiólogos en la examinación de cáncer de mama. En colaboración con el Dr. Rodrigo Cádiz y el Dr. Patricio de la Cuadra."
+        en: "Development of a sonification tool to assist radiologists in the detection of breast cancer. In collaboration with Dr. Rodrigo Cádiz and Dr. Patricio de la Cuadra."
+      priority: 2
+
+skills:
+  type: mixed
+  items:
+    - kind: labeled_text
+      label: {es: "Software", en: "Software"}
+      content:
+        es: "Desarrollo de análisis, reducción y visualización de datos utilizando Python y sus principales módulos asociados (Astropy, Matplotlib, Numpy, Pandas, Plotly, PyTorch, Seaborn, SciPy). Software astronómico: IRAF, DS9, TOPCAT. Otras tecnologías: Bash, Docker, Git, \\LaTeX, PostgreSQL, R. Repositorio de Github: \\url{https://github.com/jorgeanais}"
+        en: "Proficient in developing data analysis, reduction, and visualization using Python and its main associated modules (Astropy, Matplotlib, Numpy, Pandas, Plotly, PyTorch, Seaborn, SciPy). Astronomical software: IRAF, DS9, TOPCAT. Other technologies: Bash, Docker, Git, \\LaTeX, PostgreSQL, R. Github repo: \\url{https://github.com/jorgeanais}"
+      priority: 1
+    - kind: labeled_bullets
+      label: {es: "Idiomas", en: "Languages"}
+      bullets:
+        - {es: "Español (nativo)", en: "Spanish (native)"}
+        - {es: "Inglés (competencia profesional)", en: "English (professional competence)"}
+      priority: 1
+
+teaching:
+  type: experience
+  items:
+    - dates: {es: "2022 - Presente", en: "2022 - Present"}
+      title: {es: "Docente", en: "Instructor"}
+      subtitle: {es: "Duoc UC, Escuela de Informática y Telecomunicaciones", en: "Duoc UC, School of Informatics and Telecommunications"}
+      location: {es: "Santiago, Chile", en: "Santiago, Chile"}
+      titlecomment:
+        es: "Dicto las clases de Machine Learning y Deep Learning para estudiantes de ingeniería en informática."
+        en: "Teaching Machine Learning and Deep Learning courses for computer engineering students."
+      priority: 1
+    - dates: {es: "2010 - 2014", en: "2010 - 2014"}
+      title: {es: "Ayudante", en: "Teaching Assistant"}
+      subtitle: {es: "Pontificia Universidad Católica de Chile", en: "Pontificia Universidad Católica de Chile"}
+      location: {es: "Santiago, Chile", en: "Santiago, Chile"}
+      titlecomment:
+        es: "Cursos: Física elemental para Ciencias Biológicas, Estática y Dinámica para Ingeniería Civil, Termodinámica, Óptica, Instrumentación Astronómica y Electricidad y Magnetismo."
+        en: "Courses: Introduction to Physics for Biological Sciences, Static and Dynamics for Civil Engineers, Thermodynamics, Optics, Astronomical Instrumentation and Electricity and Magnetism."
+      priority: 2
+
+observational_experience:
+  type: experience
+  items:
+    - dates: {es: "2014 - 2020", en: "2014 - 2020"}
+      title: {es: "Telescopio Swope 1m", en: "Swope 1m Telescope"}
+      subtitle: {es: "Las Campanas Observatory", en: "Las Campanas Observatory"}
+      location: {es: "Atacama, Chile", en: "Atacama, Chile"}
+      titlecomment: {es: "Más de 300 noches observadas.", en: "More than 300 nights observed."}
+      priority: 2
+    - dates: {es: "2018 - 2020", en: "2018 - 2020"}
+      title: {es: "Telescopio Chakana 0.6m", en: "Chakana 0.6m Telescope"}
+      subtitle: {es: "UA Ckoirama Observatory", en: "UA Ckoirama Observatory"}
+      location: {es: "Antofagasta, Chile", en: "Antofagasta, Chile"}
+      titlecomment: {es: "10 noches observadas en total.", en: "10 nights observed in total."}
+      priority: 2
+    - dates: {es: "2020", en: "2020"}
+      title: {es: "Telescopio Zeiss 1.23m", en: "Zeiss 1.23m Telescope"}
+      subtitle: {es: "Calar Alto Astronomical Observatory", en: "Calar Alto Astronomical Observatory"}
+      location: {es: "España (remoto)", en: "Spain (remote)"}
+      titlecomment: {es: "8 noches observadas en total.", en: "8 nights observed in total."}
+      priority: 2
+    - dates: {es: "2013 - 2014", en: "2013 - 2014"}
+      title: {es: "Telescopio PUC 50cm / Espectrógrafo PUCHEROS", en: "PUC 50cm Telescope / PUCHEROS Spectrograph"}
+      subtitle: {es: "Observatorio PUC Santa Martina", en: "PUC Santa Martina Observatory"}
+      location: {es: "Santiago, Chile", en: "Santiago, Chile"}
+      titlecomment: {es: "10 noches observadas en total.", en: "10 nights observed in total."}
+      priority: 2
+
+furtherdegrees:
+  type: experience
+  items:
+    - dates: {es: "2024", en: "2024"}
+      title: {es: "Reconocimiento visual con Deep Learning (CC66T)", en: "Visual Recognition with Deep Learning (CC66T)"}
+      subtitle: {es: "Universidad de Chile", en: "Universidad de Chile"}
+      location: {es: "Santiago, Chile", en: "Santiago, Chile"}
+      titlecomment: {es: "", en: ""}
+      priority: 2
+    - dates: {es: "2024", en: "2024"}
+      title: {es: "Procesamiento del Lenguaje Natural (CC66Q)", en: "Natural Language Processing (CC66Q)"}
+      subtitle: {es: "Universidad de Chile", en: "Universidad de Chile"}
+      location: {es: "Santiago, Chile", en: "Santiago, Chile"}
+      titlecomment: {es: "", en: ""}
+      priority: 2
+    - dates: {es: "2021", en: "2021"}
+      title: {es: "Diplomado en Ciencias de Datos", en: "Diplomature in Data Science"}
+      subtitle: {es: "Universidad del Desarrollo", en: "Universidad del Desarrollo"}
+      location: {es: "Santiago, Chile", en: "Santiago, Chile"}
+      titlecomment: {es: "", en: ""}
+      priority: 2
+    - dates: {es: "2018", en: "2018"}
+      title: {es: "Diplomado en Desarrollo de Aplicaciones de Software", en: "Diplomature in Software Development"}
+      subtitle: {es: "Duoc UC", en: "Duoc UC"}
+      location: {es: "Santiago, Chile", en: "Santiago, Chile"}
+      titlecomment: {es: "", en: ""}
+      priority: 2
+    - dates: {es: "2016", en: "2016"}
+      title: {es: "Diplomado en Astroingeniería", en: "Diplomature in Astroengineering"}
+      subtitle: {es: "Universidad de Antofagasta", en: "Universidad de Antofagasta"}
+      location: {es: "Antofagasta, Chile", en: "Antofagasta, Chile"}
+      titlecomment: {es: "", en: ""}
+      priority: 2
+
+achievements:
+  type: bullets_block
+  items:
+    - {es: "2024-2026 Beca completa Doctorado Nacional, Agencia Nacional de Investigación y Desarrollo de Chile.", en: "2024-2026 Full Scholarship for advanced human capital in Chile, Agencia Nacional de Investigación y Desarrollo de Chile."}
+    - {es: "2022-2023 Beca de excelencia académica para estudiantes de doctorado, Universidad de Antofagasta.", en: "2022-2023 Academic Excellence Scholarship for PhD students, Universidad de Antofagasta."}
+    - {es: "2019 Beca completa para participar en La Serena School for Data Science, AURA Observatory, Chile.", en: "2019 Full scholarship to attend La Serena School for Data Science, AURA Observatory, Chile."}
+  priority: 1
+
+conferences:
+  type: experience
+  items:
+    - dates: {es: "04/2025", en: "04/2025"}
+      title:
+        es: "12th VVV Science Meeting: la sinergia de VVVX con los estudios de nueva generación de la Vía Láctea"
+        en: "12th VVV Science Meeting: the VVVX synergy with next-generation Milky Way studies"
+      subtitle: {es: "Conferencia", en: "Conference"}
+      location: {es: "Grupo de Astrofísica, Universidade Federal de Santa Catarina, Florianópolis, Brasil", en: "Astrophysics Group at the Universidade Federal de Santa Catarina in Florianópolis, Brazil"}
+      titlecomment:
+        es: "Charla oral: \\textit{Unveiling the Sagittarius Dwarf Galaxy: Mapping Its Core and Streams at Low Galactic Latitudes}"
+        en: "Oral: \\textit{Unveiling the Sagittarius Dwarf Galaxy: Mapping Its Core and Streams at Low Galactic Latitudes}"
+      priority: 2
+    - dates: {es: "07/2024", en: "07/2024"}
+      title: {es: "Summer School in Statistics for Astronomers", en: "Summer School in Statistics for Astronomers"}
+      subtitle: {es: "Center for Astrostatistics, Pennsylvania State University", en: "Center for Astrostatistics at The Pennsylvania State University"}
+      location: {es: "", en: ""}
+      titlecomment: {es: "", en: ""}
+      priority: 2
+    - dates: {es: "03/2024", en: "03/2024"}
+      title: {es: "First LSST Latin American Meeting (LSST@LATAM): Catalyzing Research Collaborations", en: "First LSST Latin American Meeting (LSST@LATAM): Catalyzing Research Collaborations"}
+      subtitle: {es: "Conferencia", en: "Conference"}
+      location: {es: "La Serena, Chile", en: "La Serena, Chile"}
+      titlecomment: {es: "", en: ""}
+      priority: 2
+    - dates: {es: "03/2023", en: "03/2023"}
+      title: {es: "XVII Latin American Regional IAU Meeting", en: "XVII Latin American Regional IAU Meeting"}
+      subtitle: {es: "Conferencia", en: "Conference"}
+      location: {es: "Montevideo, Uruguay", en: "Montevideo, Uruguay"}
+      titlecomment:
+        es: "Contribución en póster: \\textit{Unraveling the Sagittarius Dwarf Spheroidal Galaxy at Low Galactic latitudes}"
+        en: "Poster contribution: \\textit{Unraveling the Sagittarius Dwarf Spheroidal Galaxy at Low Galactic latitudes}"
+      priority: 2
+    - dates: {es: "03/2023", en: "03/2023"}
+      title: {es: "First Latinamerican Virtual Observatory School", en: "First Latinamerican Virtual Observatory School"}
+      subtitle: {es: "Spanish Virtual Observatory", en: "Spanish Virtual Observatory"}
+      location: {es: "Online", en: "Online"}
+      titlecomment: {es: "", en: ""}
+      priority: 2
+    - dates: {es: "2021", en: "2021"}
+      title: {es: "Pycon Chile 2021", en: "Pycon Chile 2021"}
+      subtitle: {es: "Conferencia", en: "Conference"}
+      location: {es: "Online (\\url{https://pycon.cl/2021/})", en: "Online (\\url{https://pycon.cl/2021/})"}
+      titlecomment:
+        es: "Charla contribuida: \\textit{Búsqueda de cúmulos estelares usando aprendizaje de máquinas no supervisado}"
+        en: "Contributed talk: \\textit{Search for star clusters using unsupervised machine learning}"
+      priority: 2
+    - dates: {es: "2019", en: "2019"}
+      title: {es: "LARIM 2019: XVI Latin American Regional IAU Meeting", en: "LARIM 2019: XVI Latin American Regional IAU Meeting"}
+      subtitle: {es: "Conferencia", en: "Conference"}
+      location: {es: "Antofagasta, Chile", en: "Antofagasta, Chile"}
+      titlecomment: {es: "", en: ""}
+      priority: 2
+    - dates: {es: "2019", en: "2019"}
+      title: {es: "Star Form Mapper 2019", en: "Star Form Mapper 2019"}
+      subtitle: {es: "Conferencia", en: "Conference"}
+      location: {es: "York, Reino Unido", en: "York, United Kingdom"}
+      titlecomment:
+        es: "Póster contribuido: \\textit{Massive Open clusters in VVV data using unsupervised clustering algorithms}"
+        en: "Contributed poster: \\textit{Massive Open clusters in VVV data using unsupervised clustering algorithms}"
+      priority: 2
+    - dates: {es: "2019", en: "2019"}
+      title: {es: "La Serena School for Data Science: Applied Tools for Data-driven Sciences", en: "La Serena School for Data Science: Applied Tools for Data-driven Sciences"}
+      subtitle: {es: "AURA", en: "AURA"}
+      location: {es: "La Serena, Chile", en: "La Serena, Chile"}
+      titlecomment: {es: "", en: ""}
+      priority: 2

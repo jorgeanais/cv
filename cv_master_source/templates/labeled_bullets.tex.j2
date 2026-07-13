@@ -1,0 +1,6 @@
+\CVLabeledBulletListField[
+    labeltext={ {{- label -}} },
+    bulletlistcontent={
+{% for b in bullets %}        {{ '{' }}{{ b }}{{ '}' }}{% if not loop.last %},{% endif %}
+{% endfor %}    }
+]

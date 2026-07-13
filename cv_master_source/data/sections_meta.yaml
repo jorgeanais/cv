@@ -1,0 +1,50 @@
+# Metadata de secciones del CV.
+# El orden de aparición se determina por la posición en este archivo.
+# long_only: si es true, la sección entera se omite en la versión short
+# newpage_before: fuerza salto de página antes de la sección (para publicaciones)
+sections:
+  - key: contact-info
+    title: {es: "Contacto", en: "Contact"}
+    long_only: false
+
+  - key: education
+    title: {es: "Educación", en: "Education"}
+    long_only: false
+
+  - key: experience
+    title: {es: "Experiencia", en: "Experience"}
+    long_only: false
+
+  - key: skills
+    title: {es: "Habilidades", en: "Skills"}
+    long_only: false
+
+  - key: teaching
+    title: {es: "Experiencia Enseñando", en: "Teaching Experience"}
+    long_only: false
+
+  - key: observational_experience
+    title: {es: "Experiencia Observacional", en: "Observational Experience"}
+    long_only: true
+
+  - key: furtherdegrees
+    title: {es: "Otros Estudios", en: "Further Studies"}
+    long_only: true
+
+  - key: achievements
+    title: {es: "Becas", en: "Awards"}
+    long_only: false
+
+  - key: conferences
+    title: {es: "Conferencias y Escuelas", en: "Conferences \\& Schools"}
+    long_only: true
+
+  - key: publications
+    title: {es: "Publicaciones Científicas", en: "Publications"}
+    long_only: true
+    newpage_before: true
+
+# Etiquetas pequeñas reutilizadas en publications.tex
+labels:
+  first_author: {es: "Como primer autor", en: "As first author"}
+  coauthor: {es: "Más reciente como coautor", en: "As coauthor"}

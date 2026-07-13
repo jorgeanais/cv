@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Build output
+cv_master_source/build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
