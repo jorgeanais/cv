@@ -52,16 +52,14 @@ los archivos `.tex` finales reutilizando tus macros LaTeX originales
 
 ## Cómo editar y compilar
 
-### 1. Configurar el entorno Python (primera vez)
+### 1. Instalar dependencias (primera vez)
 
 ```bash
 cd cv_master_source
-uv venv
 uv sync
-source .venv/bin/activate
 ```
 
-Esto crea un entorno virtual e instala las dependencias (`pyyaml`, `jinja2`).
+Esto crea el entorno virtual e instala las dependencias (`pyyaml`, `jinja2`).
 
 ### 2. Editar el contenido
 
@@ -82,14 +80,13 @@ Compilar los 4 PDFs (es/en × short/long):
 
 ```bash
 cd cv_master_source
-source .venv/bin/activate
-python3 build_cv.py --all --pdf
+uv run python3 build_cv.py --all --pdf
 ```
 
 Compilar una combinación específica:
 
 ```bash
-python3 build_cv.py --lang es --version long --pdf
+uv run python3 build_cv.py --lang es --version long --pdf
 ```
 
 Los PDFs se generan en `cv_master_source/build/` (este directorio está en
