@@ -6,6 +6,12 @@ __pycache__/
 # Build output
 cv_master_source/build/
 
+# LaTeX intermediate files
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+
 # OS
 .DS_Store
 Thumbs.db
