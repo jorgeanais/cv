@@ -104,6 +104,7 @@ def render_bullets_block(section, lang, version):
 
 JOURNAL_NAMES = {
     "\\apj": "ApJ",
+    "\\aj": "AJ",
     "\\aap": "A\\&A",
     "\\mnras": "MNRAS",
     "\\pasp": "PASP",
@@ -123,7 +124,9 @@ def _escape_latex(text):
 
 
 def _clean_author_name(name):
-    return re.sub(r"[{}]", "", name)
+    protected = re.sub(r"\{[^{}]*\}", lambda m: "\x00" + m.group(0)[1:-1] + "\x01", name)
+    protected = re.sub(r"[{}]", "", protected)
+    return re.sub(r"\x00([^\x00\x01]*)\x01", r"{\1}", protected)
 
 
 def _first_author_surname(authors_raw):
