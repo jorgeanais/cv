@@ -96,7 +96,7 @@ experience:
       titlecomment:
         es: "Desarrollo de una metodología basada en aprendizaje automático no supervisado para la búsqueda de candidatos a cúmulos jóvenes en el extremo lejano de la barra Galáctica. Este trabajo permitió identificar tres nuevos candidatos a cúmulo en una región de alta extinción y densidad de fuentes de la Vía Láctea. Bajo la supervisión del Dr. Sebastián Ramírez y la Dra. Karla Peña Ramírez."
         en: "Development of a methodology based on unsupervised machine learning to search for young cluster candidates at the far end of the Galactic bar. This work allowed us to identify three new cluster candidates at a highly extincted and crowded region of the Milky Way. Under the supervision of Dr. Sebastián Ramírez and Dra. Karla Peña Ramírez."
-      priority: 2
+      priority: 1
     - dates: {es: "03/2020 - 11/2020", en: "03/2020 - 11/2020"}
       title: {es: "Asistente de Investigación", en: "Research Assistant"}
       subtitle: {es: "Modelos espectroscópicos para atmósferas planetarias", en: "Spectroscopy models for planetary atmospheres"}
@@ -104,7 +104,7 @@ experience:
       titlecomment:
         es: "Estudio de espectroscopía de transmisión \\textit{in silico} para atmósferas de planetas tipo Tierra y mini-Neptunos. El resultado de esta investigación fue parte de una propuesta de tiempo de telescopio para JWST (Time Proposal \\#2684, cycle 1). Bajo la supervisión del Dr. Jeremy Tregloan-Reed."
         en: "Study on transmission spectroscopy \\textit{in silico} models for Earth-like and Mini-Neptunes planetary atmospheres. The result of this research was used for a JWST Time Proposal (\\#2684, cycle 1). Under the supervision of Dr. Jeremy Tregloan-Reed."
-      priority: 2
+      priority: 1
     - dates: {es: "2015 - 2020", en: "2015 - 2020"}
       title: {es: "Observador", en: "Observer"}
       subtitle: {es: "Proyecto 1M2H, UC Santa Cruz", en: "1M2H Project, UC Santa Cruz"}
@@ -112,7 +112,7 @@ experience:
       titlecomment:
         es: "Seguimiento fotométrico de transientes utilizando el telescopio Swope. Responsable de la adquisición de datos, control de calidad, y resolución de problemas del sistema. Bajo la supervisión del Dr. Ryan Foley."
         en: "Photometric transients follow-up using Swope Telescope. Responsible for data acquisition, data quality assurance, and system troubleshooting. Under the supervision of Dr. Ryan Foley."
-      priority: 2
+      priority: 1
     - dates: {es: "01/2016 - 06/2016", en: "01/2016 - 06/2016"}
       title: {es: "Asistente de Investigación", en: "Research Assistant"}
       subtitle: {es: "Reducción de datos", en: "Data reduction"}
@@ -120,7 +120,7 @@ experience:
       titlecomment:
         es: "Reducción de datos de los instrumentos FORS (VLT) y MagE (Magallanes). Bajo la supervisión del Dr. Christian Moni Bidin."
         en: "Data reduction of VLT FORS and Magellan MagE data. Under the supervision of Dr. Christian Moni Bidin."
-      priority: 2
+      priority: 1
     - dates: {es: "2014 - 2015", en: "2014 - 2015"}
       title: {es: "Observador", en: "Observer"}
       subtitle: {es: "Carnegie Supernova Project II", en: "Carnegie Supernova Project II"}
@@ -128,7 +128,7 @@ experience:
       titlecomment:
         es: "Observaciones de supernovas de bajo corrimiento al rojo utilizando el telescopio Swope. Bajo la supervisión del Dr. Mark M. Phillips."
         en: "Observations of low-redshift supernovae using the Swope Telescope at Las Campanas Observatory. Under the supervision of Dr. Mark M. Phillips."
-      priority: 2
+      priority: 1
     - dates: {es: "2014 - 2015", en: "2014 - 2015"}
       title: {es: "Asistente de Investigación", en: "Research Assistant"}
       subtitle: {es: "Sonificación de imágenes médicas", en: "Sonification of medical images"}
@@ -136,7 +136,7 @@ experience:
       titlecomment:
         es: "Desarrollo de una herramienta de sonificación para asistir a radiólogos en la examinación de cáncer de mama. En colaboración con el Dr. Rodrigo Cádiz y el Dr. Patricio de la Cuadra."
         en: "Development of a sonification tool to assist radiologists in the detection of breast cancer. In collaboration with Dr. Rodrigo Cádiz and Dr. Patricio de la Cuadra."
-      priority: 2
+      priority: 1
 
 skills:
   type: mixed
