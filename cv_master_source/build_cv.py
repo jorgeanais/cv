@@ -267,15 +267,26 @@ def build(lang, version, outdir=None):
             lines.append("\\intersectionsep")
     (target / "EDITABLE-sections" / "0-all.tex").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
-    # main.tex (idéntico al original, sin la línea de postulación específica)
-    main_tex = r"""\input{setup/packages.tex}
+    # main.tex
+    legend = {
+        "es": "Documento generado usando",
+        "en": "Document generated using",
+    }[lang]
+    main_tex = r"""
+\input{setup/packages.tex}
 
 \begin{document}
     \input{fields-cv/all.tex}
     \nametitle{\topname}{\bottomname}
     \input{EDITABLE-sections/0-all.tex}
+    \vspace{1em}
+    \vfill
+    \begin{center}
+    {\small \today~• Santiago, Chile}\\
+    {\scriptsize LEGEND_TEXT \url{https://github.com/jorgeanais/cv}}
+    \end{center}
 \end{document}
-"""
+""".replace("LEGEND_TEXT", legend)
     (target / "main.tex").write_text(main_tex, encoding="utf-8")
 
     print(f"[ok] Generado: {target}")
