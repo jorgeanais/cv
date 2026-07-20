@@ -21,7 +21,7 @@ contact-info:
 education:
   type: experience
   items:
-    - dates: {es: "2022 - 2025 (esperado)", en: "2022 - (2025)"}
+    - dates: {es: "2022 - 2027 (esperado)", en: "2022 - (2027)"}
       title: {es: "Doctorado en Astrofísica y Astroinformática", en: "Doctorate in Astrophysics and Astroinformatics"}
       subtitle: {es: "Universidad de Antofagasta", en: "Universidad de Antofagasta"}
       location: {es: "Antofagasta, Chile", en: "Antofagasta, Chile"}
