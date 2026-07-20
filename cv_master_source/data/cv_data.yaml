@@ -144,8 +144,8 @@ skills:
     - kind: labeled_text
       label: {es: "Software", en: "Software"}
       content:
-        es: "Desarrollo de análisis, reducción y visualización de datos utilizando Python y sus principales módulos asociados (Astropy, Matplotlib, Numpy, Pandas, Plotly, PyTorch, Seaborn, SciPy). Software astronómico: IRAF, DS9, TOPCAT. Otras tecnologías: Bash, Docker, Git, \\LaTeX, OpenCode, PostgreSQL, R. Repositorio de Github: \\url{https://github.com/jorgeanais}"
-        en: "Proficient in developing data analysis, reduction, and visualization using Python and its main associated modules (Astropy, Matplotlib, Numpy, Pandas, Plotly, PyTorch, Seaborn, SciPy). Astronomical software: IRAF, DS9, TOPCAT. Other technologies: Bash, Docker, Git, \\LaTeX, OpenCode, PostgreSQL, R. Github repo: \\url{https://github.com/jorgeanais}"
+        es: "Desarrollo de análisis, reducción y visualización de datos utilizando Python y sus principales módulos asociados (Astropy, Matplotlib, Numpy, Pandas, Plotly, PyTorch, Seaborn, SciPy). Software astronómico: IRAF, DS9, TOPCAT. Otras tecnologías: Bash, Docker, Git, \\LaTeX, OpenClaw, OpenCode, PostgreSQL, R. Repositorio de Github: \\url{https://github.com/jorgeanais}"
+        en: "Proficient in developing data analysis, reduction, and visualization using Python and its main associated modules (Astropy, Matplotlib, Numpy, Pandas, Plotly, PyTorch, Seaborn, SciPy). Astronomical software: IRAF, DS9, TOPCAT. Other technologies: Bash, Docker, Git, \\LaTeX, OpenClaw, OpenCode, PostgreSQL, R. Github repo: \\url{https://github.com/jorgeanais}"
       priority: 1
     - kind: labeled_bullets
       label: {es: "Idiomas", en: "Languages"}
