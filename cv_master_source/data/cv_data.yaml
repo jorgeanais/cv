@@ -205,6 +205,14 @@ observational_experience:
 furtherdegrees:
   type: experience
   items:
+    - dates: {es: "2025", en: "2025"}
+      title: {es: "Deep Learning Specialization", en: "Deep Learning Specialization"}
+      subtitle: {es: "Coursera - DeepLearning.AI", en: "Coursera - DeepLearning.AI"}
+      location: {es: "", en: ""}
+      titlecomment:
+        es: "\\url{https://www.coursera.org/account/accomplishments/specialization/N0GS7DPV9JOY}"
+        en: "\\url{https://www.coursera.org/account/accomplishments/specialization/N0GS7DPV9JOY}"
+      priority: 2
     - dates: {es: "2026", en: "2026"}
       title: {es: "Gobernanza, Regulación y Ética de Datos", en: "Data Governance, Regulation, and Ethics"}
       subtitle: {es: "Universidad de Chile", en: "Universidad de Chile"}

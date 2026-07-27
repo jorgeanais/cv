@@ -28,7 +28,7 @@ sections:
     long_only: true
 
   - key: courses_developed
-    title: {es: "Cursos Desarrollados", en: "Courses Developed"}
+    title: {es: "Diseño Instruccional", en: "Instructional Design"}
     long_only: true
 
   - key: observational_experience
