@@ -1,0 +1,69 @@
+%------------------------------------
+% CV generated from cv_data.yaml
+%------------------------------------
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[10pt, a4paper]{article}
+\usepackage{fontspec}
+\usepackage[autostyle=true]{csquotes}
+\usepackage{geometry}
+\geometry{a4paper, textheight=27cm, left=2cm, right=2cm, top=2cm, bottom=2cm}
+\setlength\parindent{0in}
+
+\usepackage[dvipsnames]{xcolor}
+\definecolor{Jet}{HTML}{2A2D31}
+\definecolor{DarkCornflowerBlue}{HTML}{2C446F}
+\definecolor{ViridianGreen}{HTML}{468F92}
+\definecolor{SlateGray}{HTML}{6C7F93}
+
+\defaultfontfeatures{Mapping=tex-text}
+\setromanfont[
+    Path = assets/fonts/,
+    Extension = .otf,
+    UprightFont = *-Regular,
+    BoldFont = *-Bold,
+    ItalicFont = *-Italic,
+    BoldItalicFont = *-BoldItalic,
+    Ligatures = Common,
+    Numbers = OldStyle
+]{ACaslonPro}
+
+\newcommand{\amper}{{\itshape\addfontfeatures{Scale=.95}\&}}
+\newlength{\datebox}
+\setlength{\datebox}{2.8cm}
+\newlength{\textbox}
+\setlength{\textbox}{14.2cm}
+
+\newcommand{\workitem}[4]{\noindent\parbox[t]{\datebox}{#1}%
+    \parbox[t]{\textbox}{\textbf{\textcolor{ViridianGreen}{#2}}\\
+    \textit{#3}\\\textcolor{Jet}{\small #4}}\par\vspace{0.4cm}}
+\newcommand{\eduitem}[4]{\noindent\parbox[t]{\datebox}{#1}%
+    \parbox[t]{\textbox}{\textbf{\textcolor{ViridianGreen}{#2}} | \textit{#3}\\
+    \textcolor{Jet}{\small #4}}\par\vspace{0.35cm}}
+\newcommand{\certitem}[3]{\noindent\parbox[t]{\datebox}{#1}%
+    \parbox[t]{\textbox}{\textbf{\textcolor{SlateGray}{#2}} \textit{#3}}\par\vspace{0.25cm}}
+\newcommand{\skillitem}[2]{\noindent\textbf{\textcolor{SlateGray}{#1}}: #2\par\vspace{0.2cm}}
+\newcommand{\simpleitem}[2]{\noindent\parbox[t]{\datebox}{#1}%
+    \parbox[t]{\textbox}{#2}\par\vspace{0.3cm}}
+\newcommand{\listitem}[3]{\noindent\parbox[t]{\datebox}{#1}%
+    \parbox[t]{\textbox}{\textbf{\textcolor{ViridianGreen}{#2}}\\
+    \textcolor{Jet}{\small #3}}\par\vspace{0.3cm}}
+
+\usepackage{sectsty}
+\usepackage[normalem]{ulem}
+\sectionfont{\rmfamily\mdseries\Large\textcolor{DarkCornflowerBlue}}
+\subsectionfont{\rmfamily\mdseries\scshape\normalsize}
+\usepackage[xetex, bookmarks, colorlinks, breaklinks,
+    pdftitle={Jorge Anais - Curriculum Vitae}, pdfauthor={Jorge Anais}]{hyperref}
+\hypersetup{linkcolor=teal,citecolor=teal,filecolor=black,urlcolor=teal}
+\usepackage{multicol}
+\usepackage{polyglossia}
+\setdefaultlanguage{__LANGUAGE__}
+\input{templates/aas_macros.sty}
+\usepackage[backend=biber, style=numeric, sorting=ydnt, maxbibnames=99]{biblatex}
+\addbibresource{data/publications.bib}
+
+\begin{document}
+__CONTENT__
+\end{document}

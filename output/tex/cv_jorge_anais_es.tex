@@ -1,0 +1,179 @@
+%------------------------------------
+% CV generated from cv_data.yaml
+%------------------------------------
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[10pt, a4paper]{article}
+\usepackage{fontspec}
+\usepackage[autostyle=true]{csquotes}
+\usepackage{geometry}
+\geometry{a4paper, textheight=27cm, left=2cm, right=2cm, top=2cm, bottom=2cm}
+\setlength\parindent{0in}
+
+\usepackage[dvipsnames]{xcolor}
+\definecolor{Jet}{HTML}{2A2D31}
+\definecolor{DarkCornflowerBlue}{HTML}{2C446F}
+\definecolor{ViridianGreen}{HTML}{468F92}
+\definecolor{SlateGray}{HTML}{6C7F93}
+
+\defaultfontfeatures{Mapping=tex-text}
+\setromanfont[
+    Path = assets/fonts/,
+    Extension = .otf,
+    UprightFont = *-Regular,
+    BoldFont = *-Bold,
+    ItalicFont = *-Italic,
+    BoldItalicFont = *-BoldItalic,
+    Ligatures = Common,
+    Numbers = OldStyle
+]{ACaslonPro}
+
+\newcommand{\amper}{{\itshape\addfontfeatures{Scale=.95}\&}}
+\newlength{\datebox}
+\setlength{\datebox}{2.8cm}
+\newlength{\textbox}
+\setlength{\textbox}{14.2cm}
+
+\newcommand{\workitem}[4]{\noindent\parbox[t]{\datebox}{#1}%
+    \parbox[t]{\textbox}{\textbf{\textcolor{ViridianGreen}{#2}}\\
+    \textit{#3}\\\textcolor{Jet}{\small #4}}\par\vspace{0.4cm}}
+\newcommand{\eduitem}[4]{\noindent\parbox[t]{\datebox}{#1}%
+    \parbox[t]{\textbox}{\textbf{\textcolor{ViridianGreen}{#2}} | \textit{#3}\\
+    \textcolor{Jet}{\small #4}}\par\vspace{0.35cm}}
+\newcommand{\certitem}[3]{\noindent\parbox[t]{\datebox}{#1}%
+    \parbox[t]{\textbox}{\textbf{\textcolor{SlateGray}{#2}} \textit{#3}}\par\vspace{0.25cm}}
+\newcommand{\skillitem}[2]{\noindent\textbf{\textcolor{SlateGray}{#1}}: #2\par\vspace{0.2cm}}
+\newcommand{\simpleitem}[2]{\noindent\parbox[t]{\datebox}{#1}%
+    \parbox[t]{\textbox}{#2}\par\vspace{0.3cm}}
+\newcommand{\listitem}[3]{\noindent\parbox[t]{\datebox}{#1}%
+    \parbox[t]{\textbox}{\textbf{\textcolor{ViridianGreen}{#2}}\\
+    \textcolor{Jet}{\small #3}}\par\vspace{0.3cm}}
+
+\usepackage{sectsty}
+\usepackage[normalem]{ulem}
+\sectionfont{\rmfamily\mdseries\Large\textcolor{DarkCornflowerBlue}}
+\subsectionfont{\rmfamily\mdseries\scshape\normalsize}
+\usepackage[xetex, bookmarks, colorlinks, breaklinks,
+    pdftitle={Jorge Anais - Curriculum Vitae}, pdfauthor={Jorge Anais}]{hyperref}
+\hypersetup{linkcolor=teal,citecolor=teal,filecolor=black,urlcolor=teal}
+\usepackage{multicol}
+\usepackage{polyglossia}
+\setdefaultlanguage{spanish}
+\input{templates/aas_macros.sty}
+\usepackage[backend=biber, style=numeric, sorting=ydnt, maxbibnames=99]{biblatex}
+\addbibresource{data/publications.bib}
+
+\begin{document}
+{\LARGE \textcolor{DarkCornflowerBlue}{Jorge Anais Vilchez}} \\
+
+\begin{minipage}{\linewidth}
+\begin{multicols}{2}
+Nacionalidad: Chileno\\
+Dirección: Santiago, Chile.
+\vfill\eject
+E-mail: \href{mailto:jrganais@gmail.com}{jrganais@gmail.com}\\
+Página web: \url{www.jorgeanais.cl}\\
+\end{multicols}
+\end{minipage}
+
+\hrule
+
+\vspace{0.3cm}
+\begin{flushright}
+  \begin{minipage}{15 cm}
+  \textcolor{Jet}{\small Astrónomo y científico de datos con experiencia en deep learning, clustering no supervisado y pipelines de procesamiento de big data. Experiencia demostrada en el diseño de soluciones escalables y basadas en datos para entornos complejos, desde movilidad corporativa hasta surveys astronómicos de campo amplio. Capacidad para traducir conceptos técnicos para stakeholders y liderar formación académica en inteligencia artificial.}
+  \end{minipage}
+\end{flushright}
+
+\section*{Educación}
+\eduitem{2022--2027 (esperado)}{Doctorado en Astrofísica y Astroinformática}{Universidad de Antofagasta, Antofagasta, Chile}{Candidato a doctor. Tesis: \enquote{Characterization of Sagittarius dwarf galaxy at low Galactic latitudes}}
+\eduitem{2018--2020}{Magíster en Astronomía}{Universidad de Antofagasta, Antofagasta, Chile}{Tesis: \enquote{Search and characterization of star clusters in the far end of the Galactic bar}.}
+\eduitem{2008--2014}{Licenciado en Astronomía}{Pontificia Universidad Católica de Chile, Santiago, Chile}{Actividad de graduación: \enquote{Un nuevo software astrométrico para el telescopio Swope}, desarrollado en el Observatorio Las Campanas.}
+
+\section*{Experiencia de Investigación y Profesional}
+\workitem{2023 - Presente}{Investigación}{Caracterización de la galaxia enana esferoidal de Sagitario a bajas latitudes Galácticas, Universidad de Antofagasta}{Investigador principal del proyecto financiado por la Beca de Doctorado Nacional de ANID (2024-2026). Caracterización detallada de la estructura, contenido estelar y dinámica de la galaxia enana de Sagitario en regiones de baja latitud Galáctica, combinando datos fotométricos y espectroscópicos de múltiples surveys.}
+\workitem{2023 - Presente}{Profesor Asistente}{Duoc UC, Escuela de Informática y Telecomunicaciones, Santiago, Chile}{Dicto las clases de Machine Learning y Deep Learning para estudiantes de ingeniería en informática.}
+\workitem{04/2025--10/2025}{Early Career Visitor Programme}{Caracterización de nuevos cúmulos de la galaxia de Sagitario, ESO, Chile}{Investigador en un proyecto liderado por la Dra. Elisa R. Garro que combina fotometría profunda de HST (WFC3, F555W y F814W) y espectroscopía FLAMES+UVES (98 hrs, IP: Garro) para determinar con precisión edades y composiciones químicas de cúmulos globulares de la galaxia de Sagitario. Los objetivos incluyen resolver la relación edad-metalicidad, poner a prueba escenarios de formación durante la interacción Sgr-Vía Láctea, y comparar con modelos teóricos para reconstruir la historia evolutiva de Sgr.}
+\workitem{09/2024}{Investigación}{Estrellas variables en la galaxia esferoidal de Sagitario, NOIRLab}{Colaboración con la investigadora de NOIRLab, Kathy Vivas, para detectar y clasificar estrellas variables (con foco en estrellas $\delta$ Scuti y RR Lyrae) en las regiones centrales de la galaxia de Sagitario, usando datos multiépoca de DECam.}
+\workitem{08/2021--04/2022}{Científico de Datos}{Grupo Kaufmann AWTO, Chile y Brasil}{Diseño e implementación de modelos de aprendizaje automático, realización de análisis exploratorio de datos, y comunicación de resultados y recomendaciones a stakeholders.}
+\workitem{03/2020--11/2020}{Investigación}{Investigador principal en proyecto titulado búsqueda y caracterización de cúmulos estelares en el extremo lejano de la barra Galáctica, CITEVA, Universidad de Antofagasta}{Desarrollo de una metodología basada en aprendizaje automático no supervisado para la búsqueda de candidatos a cúmulos jóvenes en el extremo lejano de la barra Galáctica. Este trabajo permitió identificar tres nuevos candidatos a cúmulo en una región de alta extinción y densidad de fuentes de la Vía Láctea. Bajo la supervisión del Dr. Sebastián Ramírez y la Dra. Karla Peña Ramírez.}
+\workitem{03/2020--11/2020}{Asistente de Investigación}{Modelos espectroscópicos para atmósferas planetarias, CITEVA, UA}{Estudio de espectroscopía de transmisión \textit{in silico} para atmósferas de planetas tipo Tierra y mini-Neptunos. El resultado de esta investigación fue parte de una propuesta de tiempo de telescopio para JWST (Time Proposal \#2684, cycle 1). Bajo la supervisión del Dr. Jeremy Tregloan-Reed.}
+\workitem{2015--2025}{Observador}{Proyecto 1M2H, UC Santa Cruz, Observatorio Las Campanas, Atacama, Chile}{Seguimiento fotométrico de transientes utilizando el telescopio Swope. Responsable de la adquisición de datos, control de calidad, y resolución de problemas del sistema. Bajo la supervisión del Dr. Ryan Foley.}
+\workitem{01/2016--06/2016}{Asistente de Investigación}{Reducción de datos, Instituto de Astronomía, Universidad Católica del Norte, Antofagasta, Chile}{Reducción de datos de los instrumentos FORS (VLT) y MagE (Magallanes). Bajo la supervisión del Dr. Christian Moni Bidin.}
+\workitem{2014--2015}{Observador}{Carnegie Supernova Project II, Observatorio Las Campanas, Atacama, Chile}{Observaciones de supernovas de bajo corrimiento al rojo utilizando el telescopio Swope. Bajo la supervisión del Dr. Mark M. Phillips.}
+\workitem{2014--2015}{Asistente de Investigación}{Sonificación de imágenes médicas, Instituto de Música, Pontificia Universidad Católica de Chile, Santiago, Chile}{Desarrollo de una herramienta de sonificación para asistir a radiólogos en la examinación de cáncer de mama. En colaboración con el Dr. Rodrigo Cádiz y el Dr. Patricio de la Cuadra.}
+
+\section*{Habilidades e Idiomas}
+\skillitem{Software}{Desarrollo de análisis, reducción y visualización de datos utilizando Python y sus principales módulos asociados (Astropy, Matplotlib, Numpy, Pandas, Plotly, PyTorch, Seaborn, SciPy). Software astronómico: IRAF, DS9, TOPCAT. Otras tecnologías: Bash, Docker, Git, \LaTeX, OpenClaw, OpenCode, PostgreSQL, R. Repositorio de Github: \url{https://github.com/jorgeanais}}
+\skillitem{Idiomas}{
+\begin{itemize}
+    \item Español (nativo)
+    \item Inglés (competencia profesional)
+\end{itemize}}
+
+\section*{Docencia y Desarrollo de Cursos}
+\workitem{2023 - Presente}{Docente}{Duoc UC, Escuela de Informática y Telecomunicaciones, Santiago, Chile}{Dicto las clases de Machine Learning y Deep Learning para estudiantes de ingeniería en informática.}
+\workitem{2010--2014}{Ayudante}{Pontificia Universidad Católica de Chile, Santiago, Chile}{Cursos: Física elemental para Ciencias Biológicas, Estática y Dinámica para Ingeniería Civil, Termodinámica, Óptica, Instrumentación Astronómica y Electricidad y Magnetismo.}
+
+\section*{Experiencia Observacional}
+\workitem{2014--2025}{Telescopio Swope 1m}{Las Campanas Observatory, Atacama, Chile}{Más de 300 noches observadas.}
+\workitem{2018--2020}{Telescopio Chakana 0.6m}{UA Ckoirama Observatory, Antofagasta, Chile}{10 noches observadas en total.}
+\workitem{2020}{Telescopio Zeiss 1.23m}{Calar Alto Astronomical Observatory, España (remoto)}{8 noches observadas en total.}
+\workitem{2013--2014}{Telescopio PUC 50cm / Espectrógrafo PUCHEROS}{Observatorio PUC Santa Martina, Santiago, Chile}{10 noches observadas en total.}
+
+\section*{Certificaciones y Estudios Complementarios}
+\workitem{2025}{Deep Learning Specialization}{Coursera - DeepLearning.AI}{\url{https://www.coursera.org/account/accomplishments/specialization/N0GS7DPV9JOY}}
+\workitem{2026}{Gobernanza, Regulación y Ética de Datos}{Universidad de Chile, Santiago, Chile}{}
+\workitem{2025}{Algoritmos Evolutivos (CC66M)}{Universidad de Chile, Santiago, Chile}{}
+\workitem{2025}{Transformers, uso de agentes, LangChain y RAG}{Universidad de Chile, Santiago, Chile}{}
+\workitem{2024}{Reconocimiento visual con Deep Learning (CC66T)}{Universidad de Chile, Santiago, Chile}{}
+\workitem{2024}{Procesamiento del Lenguaje Natural (CC66Q)}{Universidad de Chile, Santiago, Chile}{}
+\workitem{2021}{Diplomado en Ciencias de Datos}{Universidad del Desarrollo, Santiago, Chile}{}
+\workitem{2018}{Diplomado en Desarrollo de Aplicaciones de Software}{Duoc UC, Santiago, Chile}{}
+\workitem{2016}{Diplomado en Astroingeniería}{Universidad de Antofagasta, Antofagasta, Chile}{}
+
+\section*{Logros y Becas}
+\skillitem{Becas}{
+\begin{itemize}
+    \item 2024-2026 Beca completa Doctorado Nacional, Agencia Nacional de Investigación y Desarrollo de Chile.
+    \item 2022-2023 Beca de excelencia académica para estudiantes de doctorado, Universidad de Antofagasta.
+    \item 2019 Beca completa para participar en La Serena School for Data Science, AURA Observatory, Chile.
+\end{itemize}}
+
+\section*{Conferencias y Presentaciones}
+\workitem{04/2025}{12th VVV Science Meeting: la sinergia de VVVX con los estudios de nueva generación de la Vía Láctea}{Conferencia, Grupo de Astrofísica, Universidade Federal de Santa Catarina, Florianópolis, Brasil}{Charla oral: \textit{Unveiling the Sagittarius Dwarf Galaxy: Mapping Its Core and Streams at Low Galactic Latitudes}}
+\workitem{07/2024}{Summer School in Statistics for Astronomers}{Center for Astrostatistics, Pennsylvania State University}{}
+\workitem{03/2024}{First LSST Latin American Meeting (LSST@LATAM): Catalyzing Research Collaborations}{Conferencia, La Serena, Chile}{}
+\workitem{03/2023}{XVII Latin American Regional IAU Meeting}{Conferencia, Montevideo, Uruguay}{Contribución en póster: \textit{Unraveling the Sagittarius Dwarf Spheroidal Galaxy at Low Galactic latitudes}}
+\workitem{03/2023}{First Latinamerican Virtual Observatory School}{Spanish Virtual Observatory, Online}{}
+\workitem{2021}{Pycon Chile 2021}{Conferencia, Online (\url{https://pycon.cl/2021/})}{Charla contribuida: \textit{Búsqueda de cúmulos estelares usando aprendizaje de máquinas no supervisado}}
+\workitem{2019}{LARIM 2019: XVI Latin American Regional IAU Meeting}{Conferencia, Antofagasta, Chile}{}
+\workitem{2019}{Star Form Mapper 2019}{Conferencia, York, Reino Unido}{Póster contribuido: \textit{Massive Open clusters in VVV data using unsupervised clustering algorithms}}
+\workitem{2019}{La Serena School for Data Science: Applied Tools for Data-driven Sciences}{AURA, La Serena, Chile}{}
+
+\section*{Cursos Realizados}
+\workitem{Otoño 2026}{AVY1101 Big Data, AVY1102 Fundamentos de Machine Learning, BIY7121 Minería de Datos}{Ingeniería en Informática, Duoc UC, Santiago, Chile}{}
+\workitem{Primavera 2025}{MLY0100 Machine Learning}{Ingeniería en Informática, Duoc UC, Santiago, Chile}{}
+\workitem{Otoño 2025}{DLY0100 Deep Learning, FMY0100 Fundamentos de Machine Learning}{Ingeniería en Informática, Duoc UC, Santiago, Chile}{}
+\workitem{Primavera 2024}{MLY0100 Machine Learning}{Ingeniería en Informática, Duoc UC, Santiago, Chile}{}
+\workitem{Otoño 2024}{DLY0100 Deep Learning}{Ingeniería en Informática, Duoc UC, Santiago, Chile}{}
+\workitem{Otoño 2023}{DLY0100 Deep Learning}{Ingeniería en Informática, Duoc UC, Santiago, Chile}{}
+\workitem{Primavera 2023}{MLY0100 Machine Learning}{Ingeniería en Informática, Duoc UC, Santiago, Chile}{}
+
+\section*{Cursos Desarrollados}
+\workitem{2025}{TLY1101 Machine Learning}{Ingeniería en Informática mención Inteligencia Artificial, Duoc UC, Santiago, Chile}{Diseño y desarrollo de asignatura}
+\workitem{2026}{MLT2202 Redes neuronales y aprendizaje profundo}{Programa Científico de Datos online, Duoc UC, Santiago, Chile}{Diseño y desarrollo de asignatura}
+
+\section*{Publicaciones}
+\skillitem{Lista completa en ADS}{\url{https://ui.adsabs.harvard.edu/public-libraries/veXcb7VPROqU0r03axnXkg}}
+
+\nocite{*}
+\printbibliography[heading=none]
+
+\vspace{1cm}
+\begin{center}
+{\small \today\- \-\ Santiago, Chile}\\
+{\scriptsize Full Curriculum Vit\ae}
+\end{center}
+\end{document}
