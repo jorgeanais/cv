@@ -5,6 +5,7 @@ __pycache__/
 
 # Build output
 cv_master_source/build/
+build/
 
 # LaTeX intermediate files
 *.aux
