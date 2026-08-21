@@ -12,7 +12,7 @@ into the reusable `templates/cv_template.tex` template in Spanish and English.
 - `output/tex/`: generated LaTeX sources.
 - `output/pdf/`: generated PDF files.
 - `build/`: LaTeX auxiliary files.
-- `archive/`: original LaTeX document.
+- `manual/`: manually maintained application-specific CV versions.
 
 ## Requirements
 
@@ -33,6 +33,12 @@ python3 scripts/generate_cv.py en
 ```bash
 ./build_cv.sh
 ```
+
+## Manual Short CV
+
+For applications that need a shorter, customized version, edit
+`manual/short_cv.tex` directly. It uses the shared fonts and bibliography from
+the repository. See `manual/README.md` for the compilation commands.
 
 The `priority` fields in the YAML are intentionally ignored. Both generated
 documents contain the complete CV.
