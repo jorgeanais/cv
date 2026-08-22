@@ -1,0 +1,142 @@
+%------------------------------------
+% Template by Jorge Anais.
+% www.jorgeanais.cl
+%------------------------------------
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[10pt, a4paper]{article}
+\usepackage{fontspec} 
+
+% DOCUMENT LAYOUT
+\usepackage{geometry} 
+\geometry{a4paper, textheight=27cm, marginparsep=-2.8cm, marginparwidth=2.8cm, left=2cm, right=2cm}
+\setlength\parindent{0in}
+
+% COLORS (Simplified to only those used in the document)
+\usepackage[dvipsnames]{xcolor}
+\definecolor{Jet}{HTML}{2A2D31}
+\definecolor{DarkCornflowerBlue}{HTML}{2C446F}
+\definecolor{ViridianGreen}{HTML}{468F92}
+\definecolor{SlateGray}{HTML}{6C7F93}
+
+% FONTS
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\defaultfontfeatures{Mapping=tex-text} 
+\setromanfont[
+    Path = fonts/,
+    Extension = .otf,
+    UprightFont = *-Regular,
+    BoldFont = *-Bold,
+    ItalicFont = *-Italic,
+    BoldItalicFont = *-BoldItalic,
+    Ligatures = Common,
+    Numbers = OldStyle
+]{ACaslonPro}
+
+\newcommand{\amper}{{\itshape\addfontfeatures{Scale=.95}\&}}
+
+% MARGIN YEARS
+\usepackage{marginnote}
+\newcommand{\years}[1]{\marginnote{ #1}}
+
+% ---------------------------------------------------------
+% CUSTOM MACROS TO PREVENT CODE DUPLICATION
+% ---------------------------------------------------------
+\newcommand{\workitem}[4]{
+    \years{#1}\textbf{\textcolor{ViridianGreen}{#2}}\par
+    \textit{#3}\par
+    \textcolor{Jet}{\small #4}\vspace{0.3cm}\par
+}
+
+\newcommand{\eduitem}[3]{
+    \years{#1} \textbf{\textcolor{SlateGray}{#2}} \textit{#3}\par
+}
+
+\newcommand{\certitem}[3]{
+    \years{#1} \textbf{\textcolor{SlateGray}{#2}} \textit{#3}\par
+}
+
+\newcommand{\skillitem}[2]{
+    \textbf{\textcolor{SlateGray}{#1}}: #2\par
+}
+% ---------------------------------------------------------
+
+% HEADINGS
+\usepackage{sectsty} 
+\usepackage[normalem]{ulem} 
+\sectionfont{\rmfamily\mdseries\Large\textcolor{DarkCornflowerBlue}}
+\subsectionfont{\rmfamily\mdseries\scshape\normalsize} 
+\subsubsectionfont{\rmfamily\bfseries\upshape\normalsize} 
+
+% PDF SETUP
+\usepackage[xetex, bookmarks, colorlinks, breaklinks, pdftitle={Jorge Anais - short vitae },pdfauthor={Jorge Anais}]{hyperref}  
+\hypersetup{linkcolor=teal,citecolor=teal,filecolor=black,urlcolor=teal} 
+
+\usepackage{multicol}
+
+% DOCUMENT
+\begin{document}
+{\LARGE \textcolor{DarkCornflowerBlue}{Jorge Anais Vilchez}} \\
+
+\begin{minipage}{22 cm}
+\begin{multicols}{2}
+Nationality:  Chilean\\
+Address: Santiago, Chile.\\ 
+\vfill\eject
+Email: \href{mailto:jrganais@gmail.com}{jrganais@gmail.com}\\
+\textsc{url}: \href{http://www.jorgeanais.cl}{http://www.jorgeanais.cl}\\ 
+\end{multicols}
+\end{minipage}
+
+\hrule
+
+\vspace{0.3cm}
+
+\begin{flushright}  
+  \begin{minipage}{15 cm}
+  \textcolor{Jet}{\small Professional with a scientific background and extensive experience in technical astronomical environments acquiring, reducing, and analyzing astronomical data. Highly proficient in data processing, machine learning algorithms, and Python.}
+  \end{minipage}
+\end{flushright}
+%
+
+\section*{Selected Work \amper{} Research Experience}
+
+\workitem{2023-present}{Astroinformatics Researcher}{Universidad de Antofagasta \& ESO}{Engineer automated data pipelines to integrate and clean complex photometric datasets from international observatories, including wide-field data from the VVV/VVVX and Gaia DR3 surveys to map galactic structures.}
+
+\workitem{2023-present}{Assistant Professor}{Duoc UC}{Deliver lectures on Machine Learning, Deep Learning, Data Mining, and Big Data. Mentor students and spearhead instructional design for the Artificial Intelligence engineering track and online Data Science programs, integrating interdisciplinary applications such as data sonification.}
+
+\workitem{2021-2022}{Data Scientist}{Grupo Kaufmann AWTO}{Designed and implemented scalable machine learning models to optimize corporate mobility and vehicle-sharing operations.}
+
+\workitem{2014-2025}{Research Assistant, Observer \& Data Analyst}{Various Institutions: NOIRLab, Las Campanas Observatory, UC Santa Cruz}{Served as a research assistant for international observing projects. Executed observations, data reduction, and image data analysis across multiple instruments, telescopes, and observatories.}
+
+\section*{Education}
+\eduitem{2027\ (expected)}{Doctorate in Astrophysics and Astroinformatics}{Universidad de Antofagasta}
+\eduitem{2021}{Master in Astronomy}{Universidad de Antofagasta}
+\eduitem{2014}{Licentiate in Astronomy}{Pontificia Universidad Católica de Chile}
+
+\section*{Relevant Certifications \amper{}  Training}
+\certitem{2026}{Data Governance, Regulation, and Ethics.}{Universidad de Chile}
+\certitem{2025}{Deep Learning Specialization.}{Coursera, DeepLearning.AI}
+\certitem{2025}{Evolutionary Algorithms and Visual Recognition with Deep Learning.}{Universidad de Chile}
+\certitem{2025}{Transformers, Use of Agents, LangChain and RAG.}{Universidad de Chile}
+\certitem{2024}{Natural Language Processing.}{Universidad de Chile}
+
+\section*{Skills}
+\skillitem{Languages}{Spanish (native) and English.}
+\skillitem{Computer Languages \& Frameworks}{Python, PyTorch, Keras, Pandas, NumPy, SciPy, Scikit-learn, Plotly, Bash, R}
+\skillitem{Tools \& Infrastructure}{Docker, Git, PostgreSQL, Linux environments.}
+\skillitem{Specialties}{Astroinformatics, Machine Learning, Exploratory Data Analysis, Technical Communication.}
+\skillitem{Publications}{Co-authored 15 peer-reviewed publications focusing on statistical modeling, transient event detection, and extensive dataset calibration.}
+
+
+
+\vspace{1cm}
+\begin{center}
+{\small \today\- •\- Santiago, Chile}\\
+{\scriptsize Short Curriculum Vit\ae. Full version available at \href{http://www.jorgeanais.cl}{http://www.jorgeanais.cl}}
+\end{center}
+
+\end{document}
