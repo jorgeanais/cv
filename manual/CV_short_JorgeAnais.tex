@@ -1,0 +1,149 @@
+%------------------------------------
+% Plantilla por Jorge Anais.
+% www.jorgeanais.cl
+%------------------------------------
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[10pt, a4paper]{article}
+\usepackage{fontspec} 
+
+% DOCUMENT LAYOUT
+\usepackage{geometry} 
+\geometry{a4paper, textheight=27cm, marginparsep=-2.8cm, marginparwidth=2.8cm, left=2cm, right=2cm}
+\setlength\parindent{0in}
+
+% COLORS (Simplified to only those used in the document)
+\usepackage[dvipsnames]{xcolor}
+\definecolor{Jet}{HTML}{2A2D31}
+\definecolor{DarkCornflowerBlue}{HTML}{2C446F}
+\definecolor{ViridianGreen}{HTML}{468F92}
+\definecolor{SlateGray}{HTML}{6C7F93}
+
+% FONTS
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\defaultfontfeatures{Mapping=tex-text} 
+\setromanfont[
+    Path = ../assets/fonts/,
+    Extension = .otf,
+    UprightFont = *-Regular,
+    BoldFont = *-Bold,
+    ItalicFont = *-Italic,
+    BoldItalicFont = *-BoldItalic,
+    Ligatures = Common,
+    Numbers = OldStyle
+]{ACaslonPro}
+
+\newcommand{\amper}{{\itshape\addfontfeatures{Scale=.95}\&}}
+
+% MARGIN YEARS
+\usepackage{marginnote}
+\newcommand{\years}[1]{\marginnote{ #1}}
+
+% ---------------------------------------------------------
+% CUSTOM MACROS TO PREVENT CODE DUPLICATION
+% ---------------------------------------------------------
+\newcommand{\workitem}[4]{
+    \years{#1}\textbf{\textcolor{ViridianGreen}{#2}}\par
+    \textit{#3}\par
+    \textcolor{Jet}{\small #4}\vspace{0.3cm}\par
+}
+
+\newcommand{\eduitem}[3]{
+    \years{#1} \textbf{\textcolor{SlateGray}{#2}} \textit{#3}\par
+}
+
+\newcommand{\certitem}[3]{
+    \years{#1} \textbf{\textcolor{SlateGray}{#2}} \textit{#3}\par
+}
+
+\newcommand{\skillitem}[2]{
+    \textbf{\textcolor{SlateGray}{#1}}: #2\par
+}
+% ---------------------------------------------------------
+
+% HEADINGS
+\usepackage{sectsty} 
+\usepackage[normalem]{ulem} 
+\sectionfont{\rmfamily\mdseries\Large\textcolor{DarkCornflowerBlue}}
+\subsectionfont{\rmfamily\mdseries\scshape\normalsize} 
+\subsubsectionfont{\rmfamily\bfseries\upshape\normalsize} 
+
+% PDF SETUP
+% Avoid loading the optional Greek PDF encoding, unavailable in minimal TeX installs.
+\let\textBeta\undefined
+\usepackage[bookmarks, colorlinks, breaklinks, pdftitle={Jorge Anais - vitae resumido },pdfauthor={Jorge Anais}]{hyperref}  
+\hypersetup{linkcolor=teal,citecolor=teal,filecolor=black,urlcolor=teal} 
+
+\usepackage{multicol}
+
+% DOCUMENT
+\begin{document}
+{\LARGE \textcolor{DarkCornflowerBlue}{Jorge Anais Vilchez}} \\
+
+\begin{minipage}{22 cm}
+\begin{multicols}{2}
+Nacionalidad: Chileno\\
+Dirección: Santiago, Chile.\\ 
+\vfill\eject
+Correo: \href{mailto:jrganais@gmail.com}{jrganais@gmail.com}\\
+\textsc{url}: \href{http://www.jorgeanais.cl}{http://www.jorgeanais.cl}\\ 
+\end{multicols}
+\end{minipage}
+
+\hrule
+
+\vspace{0.3cm}
+
+\begin{flushright}  
+  \begin{minipage}{15 cm}
+  \textcolor{Jet}{\small Astrónomo y científico de datos con experiencia en modelado estadístico, aprendizaje automático (incluyendo clustering no supervisado) y automatización de pipelines de datos para sustentar decisiones basadas en evidencia. Trayectoria diseñando soluciones escalables en entornos complejos, desde movilidad corporativa hasta surveys astronómicos de campo amplio, con capacidad demostrada para traducir conceptos técnicos a stakeholders no especializados. Competente en Python, R y SQL.}
+  \end{minipage}
+\end{flushright}
+%
+
+\section*{Experiencia Laboral \amper{} de Investigación Destacada}
+
+\workitem{2023-presente}{Investigador Principal}{Universidad de Antofagasta \& ESO}{Investigador principal de proyecto adjudicado por la Beca de Doctorado Nacional ANID: diseño de pipelines automatizados para integrar y modelar estadísticamente datos fotométricos y espectroscópicos de múltiples surveys (VVV/VVVX, Gaia DR3, HST, FLAMES+UVES), en colaboración con ESO (Early Career Visitor Programme, 2025) y aplicando control de calidad y calibración rigurosa de mediciones.}
+
+\workitem{2023-presente}{Profesor}{Duoc UC}{Impartición de clases sobre Aprendizaje Automático, Aprendizaje Profundo, Minería de Datos y Big Data. Mentoría de estudiantes y liderazgo en el diseño instruccional para la carrera de ingeniería en Inteligencia Artificial y programas en línea de Ciencia de Datos, fortaleciendo habilidades de comunicación técnica y traducción de conceptos analíticos a audiencias diversas.}
+
+\workitem{2021-2022}{Científico de Datos}{Grupo Kaufmann AWTO}{Diseño e implementación de modelos de aprendizaje automático para optimizar la movilidad corporativa y las operaciones de uso compartido de vehículos; ejecución de análisis exploratorio de datos y comunicación de resultados y recomendaciones a stakeholders del negocio.}
+
+\workitem{2014-2025}{Asistente de Investigación, Observador y Analista de Datos}{Diversas Instituciones: NOIRLab, Observatorio Las Campanas, UC Santa Cruz}{Desempeño como asistente de investigación para proyectos de observación internacionales, colaborando codo a codo con equipos multidisciplinarios de habla inglesa. Ejecución de observaciones (más de 300 noches en el telescopio Swope), control de calidad, reducción y análisis estadístico de datos de imágenes a través de múltiples instrumentos, telescopios y observatorios.}
+
+\workitem{2020}{Investigador Principal}{CITEVA, Universidad de Antofagasta}{Desarrollo de una metodología de aprendizaje automático no supervisado para la búsqueda de candidatos a cúmulos estelares jóvenes en una región de alta extinción y densidad de fuentes de la Vía Láctea, identificando 3 nuevos candidatos a cúmulo. Resultados presentados en PyCon Chile 2021.}
+
+\section*{Educación}
+\eduitem{2022-2027\footnote{Esperado.}}{Doctorado en Astrofísica y Astroinformática}{Universidad de Antofagasta}
+\eduitem{2018-2020}{Magíster en Astronomía}{Universidad de Antofagasta}
+\eduitem{2008-2014}{Licenciatura en Astronomía}{Pontificia Universidad Católica de Chile}
+
+\section*{Certificaciones Relevantes \amper{} Capacitación}
+\certitem{2026}{Gobernanza, Regulación y Ética de Datos.}{Universidad de Chile}
+\certitem{2025}{Especialización en Aprendizaje Profundo.}{Coursera, DeepLearning.AI}
+\certitem{2025}{Algoritmos Evolutivos y Reconocimiento Visual con Aprendizaje Profundo.}{Universidad de Chile}
+\certitem{2025}{Transformers, Uso de Agentes, LangChain y RAG.}{Universidad de Chile}
+\certitem{2024}{Summer School in Statistics for Astronomers.}{Center for Astrostatistics, Penn State University}
+\certitem{2024}{Procesamiento de Lenguaje Natural.}{Universidad de Chile}
+\certitem{2021}{Diplomado en Ciencias de Datos.}{Universidad del Desarrollo}
+
+\section*{Habilidades}
+\skillitem{Idiomas}{Español (nativo) e Inglés (competencia profesional; lectura técnica constante de papers y documentación, y colaboración internacional en NOIRLab, ESO y UC Santa Cruz).}
+\skillitem{Programación y Análisis de Datos}{Python (Pandas, NumPy, SciPy, Scikit-learn, PyTorch, Keras, Plotly) y R, con manejo de flujos, condiciones y funciones para análisis reproducible.}
+\skillitem{Bases de Datos}{SQL (PostgreSQL) para la preparación y caracterización de conjuntos de datos de análisis.}
+\skillitem{Herramientas e Infraestructura}{Docker, Git, \LaTeX, entornos Linux.}
+\skillitem{Especialidades}{Modelado estadístico, clustering no supervisado, diseño de estudios observacionales y control de calidad de mediciones, Aprendizaje Automático, Análisis Exploratorio de Datos, Astroinformática, Comunicación Técnica.}
+\skillitem{Publicaciones}{Coautor de 15 publicaciones revisadas por pares enfocadas en modelado estadístico, detección de eventos transitorios y calibración de conjuntos de datos extensos.}
+
+
+
+\vspace{1cm}
+\begin{center}
+{\small \today\- •\- Santiago, Chile}\\
+{\scriptsize Curriculum Vit\ae{} resumido. Versión completa disponible en \href{http://www.jorgeanais.cl}{http://www.jorgeanais.cl}}
+\end{center}
+
+\end{document}
